@@ -186,5 +186,22 @@
         }
       ]
     }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-zaiManHuan",
+    "manifest": {
+      "name": "再漫画",
+      "uuid": "00000000-0000-0000-0000-00000000e001",
+      "iconUrl": "",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "再漫画插件",
+      "version": "0.1.0",
+      "home": "https://example.com",
+      "updateUrl": "https://httpstat.us/404",
+      "function": []
+    }
   }
 ]

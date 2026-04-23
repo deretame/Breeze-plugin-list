@@ -7,11 +7,11 @@
       "iconUrl": "",
       "creator": {
         "name": "",
-        "describe": "e-hentai minimal reader plugin"
+        "describe": ""
       },
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.1",
-      "home": "https://e-hentai.org",
+      "version": "0.0.2",
+      "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
       "function": []
     }

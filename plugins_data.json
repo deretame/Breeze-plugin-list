@@ -191,16 +191,16 @@
     "repo": "deretame/Breeze-plugin-zaiManHuan",
     "manifest": {
       "name": "再漫画",
-      "uuid": "00000000-0000-0000-0000-00000000e001",
-      "iconUrl": "",
+      "uuid": "65c18db5-eb13-40d0-9ab4-31f473536aa1",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-zaiManHuan/refs/heads/main/assets/FS.png",
       "creator": {
         "name": "",
         "describe": ""
       },
       "describe": "再漫画插件",
-      "version": "0.1.0",
-      "home": "https://example.com",
-      "updateUrl": "https://httpstat.us/404",
+      "version": "0.0.1",
+      "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
       "function": []
     }
   }

@@ -10,7 +10,7 @@
         "describe": ""
       },
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
       "function": []
@@ -27,7 +27,7 @@
         "describe": ""
       },
       "describe": "禁漫天堂插件",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "home": "https://github.com/deretame/Breeze-plugin-JmComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-JmComic/releases/latest",
       "function": [
@@ -114,7 +114,7 @@
         "describe": ""
       },
       "describe": "哔咔漫画插件",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
       "function": [

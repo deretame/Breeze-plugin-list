@@ -17,6 +17,23 @@
     }
   },
   {
+    "repo": "deretame/Breeze-plugin-copyComic",
+    "manifest": {
+      "name": "拷贝漫画",
+      "uuid": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
+      "iconUrl": "https://httpstat.us/404",
+      "creator": {
+        "name": "example",
+        "describe": "占位作者信息"
+      },
+      "describe": "拷贝漫画插件",
+      "version": "0.0.1",
+      "home": "https://example.com",
+      "updateUrl": "https://httpstat.us/404",
+      "function": []
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-JmComic",
     "manifest": {
       "name": "禁漫天堂",

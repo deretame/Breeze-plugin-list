@@ -17,23 +17,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-copyComic",
-    "manifest": {
-      "name": "拷贝漫画",
-      "uuid": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-copyComic/main/assets/u3.png",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "拷贝漫画插件",
-      "version": "0.0.3",
-      "home": "https://github.com/deretame/Breeze-plugin-copyComic",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
-      "function": []
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-JmComic",
     "manifest": {
       "name": "禁漫天堂",
@@ -118,6 +101,23 @@
           }
         }
       ]
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-copyComic",
+    "manifest": {
+      "name": "拷贝漫画",
+      "uuid": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-copyComic/main/assets/u3.png",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "拷贝漫画插件",
+      "version": "0.0.3",
+      "home": "https://github.com/deretame/Breeze-plugin-copyComic",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
+      "function": []
     }
   },
   {

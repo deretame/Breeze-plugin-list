@@ -10,10 +10,79 @@
         "describe": ""
       },
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.9",
+      "version": "0.0.10",
       "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
-      "function": []
+      "function": [
+        {
+          "id": "latest",
+          "title": "最新",
+          "action": {
+            "type": "openComicList",
+            "payload": {
+              "scene": {
+                "title": "最新",
+                "source": "dba2a6cf-c495-4416-accf-c29263ab4016",
+                "list": {
+                  "fnPath": "getLatestData",
+                  "core": {},
+                  "extern": {
+                    "source": "latest"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "popular",
+          "title": "热门",
+          "action": {
+            "type": "openComicList",
+            "payload": {
+              "scene": {
+                "title": "热门",
+                "source": "dba2a6cf-c495-4416-accf-c29263ab4016",
+                "list": {
+                  "fnPath": "getPopularData",
+                  "core": {},
+                  "extern": {
+                    "source": "popular"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "ranking",
+          "title": "排行榜",
+          "action": {
+            "type": "openComicList",
+            "payload": {
+              "scene": {
+                "title": "排行榜",
+                "source": "dba2a6cf-c495-4416-accf-c29263ab4016",
+                "list": {
+                  "fnPath": "getRankingData",
+                  "core": {},
+                  "extern": {
+                    "source": "ranking",
+                    "rankType": "day"
+                  }
+                },
+                "filter": {
+                  "fnPath": "getRankingFilterBundle",
+                  "core": {},
+                  "extern": {
+                    "source": "ranking"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   {
@@ -104,6 +173,23 @@
     }
   },
   {
+    "repo": "deretame/Breeze-plugin-copyComic",
+    "manifest": {
+      "name": "拷贝漫画",
+      "uuid": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-copyComic/main/assets/u3.png",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "拷贝漫画插件",
+      "version": "0.0.3",
+      "home": "https://github.com/deretame/Breeze-plugin-copyComic",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
+      "function": []
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-bikaComic",
     "manifest": {
       "name": "哔咔漫画",
@@ -185,23 +271,6 @@
           }
         }
       ]
-    }
-  },
-  {
-    "repo": "deretame/Breeze-plugin-copyComic",
-    "manifest": {
-      "name": "拷贝漫画",
-      "uuid": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-copyComic/main/assets/u3.png",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "拷贝漫画插件",
-      "version": "0.0.3",
-      "home": "https://github.com/deretame/Breeze-plugin-copyComic",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
-      "function": []
     }
   },
   {

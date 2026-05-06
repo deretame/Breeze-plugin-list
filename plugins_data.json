@@ -183,10 +183,93 @@
         "describe": ""
       },
       "describe": "拷贝漫画插件",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "home": "https://github.com/deretame/Breeze-plugin-copyComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
-      "function": []
+      "function": [
+        {
+          "id": "recommend",
+          "title": "漫画推荐",
+          "action": {
+            "type": "openComicList",
+            "payload": {
+              "scene": {
+                "title": "漫画推荐",
+                "source": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
+                "list": {
+                  "fnPath": "getHomeRecommend",
+                  "core": {},
+                  "extern": {}
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "newest",
+          "title": "全新上架",
+          "action": {
+            "type": "openComicList",
+            "payload": {
+              "scene": {
+                "title": "全新上架",
+                "source": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
+                "list": {
+                  "fnPath": "getHomeNewest",
+                  "core": {},
+                  "extern": {}
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "discover",
+          "title": "发现",
+          "action": {
+            "type": "openComicList",
+            "payload": {
+              "scene": {
+                "title": "发现",
+                "source": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
+                "list": {
+                  "fnPath": "getHomeDiscover",
+                  "core": {},
+                  "extern": {}
+                },
+                "filter": {
+                  "fnPath": "getHomeDiscoverFilterBundle",
+                  "core": {},
+                  "extern": {}
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "rank",
+          "title": "排行榜",
+          "action": {
+            "type": "openComicList",
+            "payload": {
+              "scene": {
+                "title": "排行榜",
+                "source": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
+                "list": {
+                  "fnPath": "getHomeRank",
+                  "core": {},
+                  "extern": {}
+                },
+                "filter": {
+                  "fnPath": "getHomeRankFilterBundle",
+                  "core": {},
+                  "extern": {}
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   {

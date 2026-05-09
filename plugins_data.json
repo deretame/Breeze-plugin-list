@@ -367,7 +367,7 @@
         "describe": ""
       },
       "describe": "再漫画插件",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
       "function": []

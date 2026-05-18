@@ -190,45 +190,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-NoyAcg",
-    "manifest": {
-      "name": "Example Plugin",
-      "uuid": "00000000-0000-0000-0000-00000000e001",
-      "iconUrl": "https://httpstat.us/404",
-      "creator": {
-        "name": "example",
-        "describe": "占位作者信息"
-      },
-      "describe": "Breeze 插件示例工程（占位实现）",
-      "version": "0.1.0",
-      "home": "https://example.com",
-      "updateUrl": "https://httpstat.us/404",
-      "function": [
-        {
-          "id": "search",
-          "title": "搜索",
-          "action": {
-            "type": "openSearch",
-            "payload": {
-              "source": "00000000-0000-0000-0000-00000000e001",
-              "keyword": "example"
-            }
-          }
-        },
-        {
-          "id": "detail",
-          "title": "详情",
-          "action": {
-            "type": "openComicDetail",
-            "payload": {
-              "comicId": "10001"
-            }
-          }
-        }
-      ]
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-copyComic",
     "manifest": {
       "name": "拷贝漫画",

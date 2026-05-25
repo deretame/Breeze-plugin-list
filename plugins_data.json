@@ -13,78 +13,7 @@
       "version": "0.0.7",
       "home": "https://github.com/deretame/Breeze-plugin-JmComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-JmComic/releases/latest",
-      "npmName": "breeze-plugin-jm-comic",
-      "function": [
-        {
-          "id": "recommend",
-          "title": "推荐",
-          "action": {
-            "type": "openPluginFunction",
-            "payload": {
-              "id": "recommend",
-              "title": "推荐",
-              "presentation": "page"
-            }
-          }
-        },
-        {
-          "id": "latest",
-          "title": "最新",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "最新",
-                "source": "bf99008d-010b-4f17-ac7c-61a9b57dc3d9",
-                "list": {
-                  "fnPath": "getLatestData",
-                  "core": {},
-                  "extern": {
-                    "source": "latest"
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "ranking",
-          "title": "排行榜",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "禁漫排行榜",
-                "source": "bf99008d-010b-4f17-ac7c-61a9b57dc3d9",
-                "list": {
-                  "fnPath": "getRankingData",
-                  "core": {},
-                  "extern": {
-                    "source": "ranking"
-                  }
-                },
-                "filter": {
-                  "fnPath": "getRankingFilterBundle",
-                  "core": {},
-                  "extern": {
-                    "source": "ranking"
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "cloudFavorite",
-          "title": "云端收藏",
-          "action": {
-            "type": "openCloudFavorite",
-            "payload": {
-              "title": "云端收藏"
-            }
-          }
-        }
-      ]
+      "npmName": "breeze-plugin-jm-comic"
     }
   },
   {
@@ -98,80 +27,10 @@
         "describe": ""
       },
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
-      "npmName": "breeze-plugin-ehentai",
-      "function": [
-        {
-          "id": "latest",
-          "title": "最新",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "最新",
-                "source": "dba2a6cf-c495-4416-accf-c29263ab4016",
-                "list": {
-                  "fnPath": "getLatestData",
-                  "core": {},
-                  "extern": {
-                    "source": "latest"
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "popular",
-          "title": "热门",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "热门",
-                "source": "dba2a6cf-c495-4416-accf-c29263ab4016",
-                "list": {
-                  "fnPath": "getPopularData",
-                  "core": {},
-                  "extern": {
-                    "source": "popular"
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "ranking",
-          "title": "排行榜",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "排行榜",
-                "source": "dba2a6cf-c495-4416-accf-c29263ab4016",
-                "list": {
-                  "fnPath": "getRankingData",
-                  "core": {},
-                  "extern": {
-                    "source": "ranking",
-                    "rankType": "day"
-                  }
-                },
-                "filter": {
-                  "fnPath": "getRankingFilterBundle",
-                  "core": {},
-                  "extern": {
-                    "source": "ranking"
-                  }
-                }
-              }
-            }
-          }
-        }
-      ]
+      "npmName": "breeze-plugin-ehentai"
     }
   },
   {
@@ -188,8 +47,7 @@
       "version": "0.0.3",
       "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
-      "npmName": "breeze-plugin-zai-man-hua",
-      "function": []
+      "npmName": "breeze-plugin-zai-man-hua"
     }
   },
   {
@@ -206,8 +64,7 @@
       "version": "0.0.2",
       "home": "https://github.com/deretame/Breeze-plugin-NoyAcg",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-NoyAcg/releases/latest",
-      "npmName": "breeze-plugin-noy-acg",
-      "function": []
+      "npmName": "breeze-plugin-noy-acg"
     }
   },
   {
@@ -224,91 +81,7 @@
       "version": "0.0.7",
       "home": "https://github.com/deretame/Breeze-plugin-copyComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
-      "npmName": "breeze-plugin-copy-comic",
-      "function": [
-        {
-          "id": "recommend",
-          "title": "漫画推荐",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "漫画推荐",
-                "source": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
-                "list": {
-                  "fnPath": "getHomeRecommend",
-                  "core": {},
-                  "extern": {}
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "newest",
-          "title": "全新上架",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "全新上架",
-                "source": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
-                "list": {
-                  "fnPath": "getHomeNewest",
-                  "core": {},
-                  "extern": {}
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "discover",
-          "title": "发现",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "发现",
-                "source": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
-                "list": {
-                  "fnPath": "getHomeDiscover",
-                  "core": {},
-                  "extern": {}
-                },
-                "filter": {
-                  "fnPath": "getHomeDiscoverFilterBundle",
-                  "core": {},
-                  "extern": {}
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "rank",
-          "title": "排行榜",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "排行榜",
-                "source": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
-                "list": {
-                  "fnPath": "getHomeRank",
-                  "core": {},
-                  "extern": {}
-                },
-                "filter": {
-                  "fnPath": "getHomeRankFilterBundle",
-                  "core": {},
-                  "extern": {}
-                }
-              }
-            }
-          }
-        }
-      ]
+      "npmName": "breeze-plugin-copy-comic"
     }
   },
   {
@@ -325,75 +98,7 @@
       "version": "0.0.7",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
-      "npmName": "breeze-plugin-bika-comic",
-      "function": [
-        {
-          "id": "hotSearch",
-          "title": "热搜",
-          "action": {
-            "type": "openPluginFunction",
-            "payload": {
-              "id": "hotSearch",
-              "title": "热搜",
-              "presentation": "dialog"
-            }
-          }
-        },
-        {
-          "id": "navigation",
-          "title": "导航",
-          "action": {
-            "type": "openPluginFunction",
-            "payload": {
-              "id": "navigation",
-              "title": "导航",
-              "presentation": "page"
-            }
-          }
-        },
-        {
-          "id": "ranking",
-          "title": "排行榜",
-          "action": {
-            "type": "openComicList",
-            "payload": {
-              "scene": {
-                "title": "哔咔排行榜",
-                "source": "0a0e5858-a467-4702-994a-79e608a4589d",
-                "body": {
-                  "type": "pluginPagedComicList",
-                  "request": {
-                    "fnPath": "getRankingData",
-                    "core": {
-                      "days": "H24",
-                      "type": "comic"
-                    },
-                    "extern": {
-                      "source": "ranking"
-                    }
-                  }
-                },
-                "filter": {
-                  "fnPath": "getRankingFilterBundle",
-                  "extern": {
-                    "source": "ranking"
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "id": "cloudFavorite",
-          "title": "云端收藏",
-          "action": {
-            "type": "openCloudFavorite",
-            "payload": {
-              "title": "云端收藏"
-            }
-          }
-        }
-      ]
+      "npmName": "breeze-plugin-bika-comic"
     }
   }
 ]

@@ -18,14 +18,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
+          fetch-depth: 0
           token: ${{ secrets.GIT_TOKEN || github.token }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Run get-list.js
         env:
@@ -33,6 +34,7 @@ jobs:
         run: node get-list.js
 
       - name: Commit and push plugins_data.json
+        id: commit_changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -41,8 +43,27 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "No changes in plugins_data.json"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           git commit -m "chore: update plugins_data.json"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Create and push incremental tag
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: |
+          git fetch --force --tags origin
+
+          last_tag=$(git tag --list | grep -E '^0\.0\.[0-9]+$' | sort -V | tail -n 1)
+          if [ -z "$last_tag" ]; then
+            next_tag="0.0.1"
+          else
+            patch_version=${last_tag##*.}
+            next_tag="0.0.$((patch_version + 1))"
+          fi
+
+          echo "Creating tag: $next_tag"
+          git tag "$next_tag"
+          git push origin "$next_tag"

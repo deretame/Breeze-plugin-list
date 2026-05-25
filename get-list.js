@@ -44,6 +44,11 @@ async function fetchPage(cursor = null) {
   return result.data.search;
 }
 
+function normalizeManifest(manifest) {
+  const { function: _ignoredFunction, ...rest } = manifest;
+  return rest;
+}
+
 async function run() {
   try {
     let hasNextPage = true;
@@ -67,9 +72,10 @@ async function run() {
         ) {
           if (node.manifest && node.manifest.text) {
             try {
+              const manifest = JSON.parse(node.manifest.text);
               allResults.push({
                 repo: node.fullName,
-                manifest: JSON.parse(node.manifest.text),
+                manifest: normalizeManifest(manifest),
               });
             } catch (e) {
               console.log(`! 跳过非法格式: ${node.fullName}`);

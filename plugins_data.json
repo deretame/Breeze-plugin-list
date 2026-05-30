@@ -27,7 +27,7 @@
         "describe": ""
       },
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.15",
+      "version": "0.0.16",
       "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
       "npmName": "breeze-plugin-ehentai"
@@ -48,6 +48,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
       "npmName": "breeze-plugin-zai-man-hua"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-bikaComic",
+    "manifest": {
+      "name": "哔咔漫画",
+      "uuid": "0a0e5858-a467-4702-994a-79e608a4589d",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-bikaComic/main/assets/logo_round.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "哔咔漫画插件",
+      "version": "0.0.7",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
+      "npmName": "breeze-plugin-bika-comic"
     }
   },
   {
@@ -99,23 +116,6 @@
       "home": "https://github.com/deretame/Breeze-plugin-copyComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
       "npmName": "breeze-plugin-copy-comic"
-    }
-  },
-  {
-    "repo": "deretame/Breeze-plugin-bikaComic",
-    "manifest": {
-      "name": "哔咔漫画",
-      "uuid": "0a0e5858-a467-4702-994a-79e608a4589d",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-bikaComic/main/assets/logo_round.webp",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "哔咔漫画插件",
-      "version": "0.0.7",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
-      "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
-      "npmName": "breeze-plugin-bika-comic"
     }
   }
 ]

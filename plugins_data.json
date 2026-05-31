@@ -27,7 +27,7 @@
         "describe": ""
       },
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.16",
+      "version": "0.0.17",
       "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
       "npmName": "breeze-plugin-ehentai"
@@ -112,7 +112,7 @@
         "describe": ""
       },
       "describe": "拷贝漫画插件",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "home": "https://github.com/deretame/Breeze-plugin-copyComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
       "npmName": "breeze-plugin-copy-comic"

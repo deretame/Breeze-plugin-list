@@ -78,7 +78,7 @@
         "describe": ""
       },
       "describe": "Komiic 漫画源插件",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "home": "https://github.com/deretame/Breeze-plugin-komiic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
       "npmName": "breeze-plugin-komiic"

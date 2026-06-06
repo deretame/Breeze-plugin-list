@@ -61,7 +61,7 @@
         "describe": ""
       },
       "describe": "哔咔漫画插件",
-      "version": "0.0.8",
+      "version": "0.0.9",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
       "npmName": "breeze-plugin-bika-comic"

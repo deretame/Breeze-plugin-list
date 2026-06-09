@@ -95,7 +95,7 @@
         "describe": ""
       },
       "describe": "包子漫画抓取插件",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "home": "https://github.com/deretame/Breeze-plugin-baozimh",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
       "npmName": "breeze-plugin-baozimh"

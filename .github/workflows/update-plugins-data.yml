@@ -28,6 +28,14 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Run get-list.js
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN || github.token }}
@@ -65,5 +73,13 @@ jobs:
           fi
 
           echo "Creating tag: $next_tag"
+          echo "NEXT_TAG=$next_tag" >> "$GITHUB_ENV"
           git tag "$next_tag"
           git push origin "$next_tag"
+
+      - name: Upload plugin-list-version.json to S3
+        if: steps.commit_changes.outputs.changed == 'true'
+        env:
+          accessKey: ${{ secrets.S3_ACCESS_KEY }}
+          secretKey: ${{ secrets.S3_SECRET_KEY }}
+        run: node update-tag-to-s3.js "$NEXT_TAG"

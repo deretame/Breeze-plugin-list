@@ -151,5 +151,22 @@
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
       "npmName": "breeze-plugin-copy-comic"
     }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-shenShiManHua",
+    "manifest": {
+      "name": "绅士漫画",
+      "uuid": "7166a5fc-b66c-4146-8c40-0f999b592a0a",
+      "iconUrl": "404",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "绅士漫画插件",
+      "version": "0.0.1",
+      "home": "https://github.com/deretame/Breeze-plugin-shenShiManHua",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-shenShiManHua/releases/latest",
+      "npmName": "breeze-plugin-shen-shi-man-hua"
+    }
   }
 ]

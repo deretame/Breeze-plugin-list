@@ -163,7 +163,7 @@
         "describe": ""
       },
       "describe": "绅士漫画插件",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "home": "https://github.com/deretame/Breeze-plugin-shenShiManHua",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-shenShiManHua/releases/latest",
       "npmName": "breeze-plugin-shen-shi-man-hua"

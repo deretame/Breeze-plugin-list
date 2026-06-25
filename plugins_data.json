@@ -34,23 +34,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-zaiManHuan",
-    "manifest": {
-      "name": "再漫画",
-      "uuid": "65c18db5-eb13-40d0-9ab4-31f473536aa1",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-zaiManHuan/refs/heads/main/assets/FS.webp",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "再漫画插件",
-      "version": "0.0.5",
-      "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
-      "npmName": "breeze-plugin-zai-man-hua"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-shenShiManHua",
     "manifest": {
       "name": "绅士漫画",
@@ -65,6 +48,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-shenShiManHua",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-shenShiManHua/releases/latest",
       "npmName": "breeze-plugin-shen-shi-man-hua"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-zaiManHuan",
+    "manifest": {
+      "name": "再漫画",
+      "uuid": "65c18db5-eb13-40d0-9ab4-31f473536aa1",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-zaiManHuan/refs/heads/main/assets/FS.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "再漫画插件",
+      "version": "0.0.5",
+      "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
+      "npmName": "breeze-plugin-zai-man-hua"
     }
   },
   {
@@ -85,23 +85,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-baozimh",
-    "manifest": {
-      "name": "包子漫画",
-      "uuid": "1b3c1e94-d9a0-4649-b75f-acd1f18d75e8",
-      "iconUrl": "https://www.baozimh.com/favicon.ico",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "包子漫画抓取插件",
-      "version": "0.0.2",
-      "home": "https://github.com/deretame/Breeze-plugin-baozimh",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
-      "npmName": "breeze-plugin-baozimh"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-komiic",
     "manifest": {
       "name": "Komiic",
@@ -116,6 +99,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-komiic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
       "npmName": "breeze-plugin-komiic"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-baozimh",
+    "manifest": {
+      "name": "包子漫画",
+      "uuid": "1b3c1e94-d9a0-4649-b75f-acd1f18d75e8",
+      "iconUrl": "https://www.baozimh.com/favicon.ico",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "包子漫画抓取插件",
+      "version": "0.0.2",
+      "home": "https://github.com/deretame/Breeze-plugin-baozimh",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
+      "npmName": "breeze-plugin-baozimh"
     }
   },
   {

@@ -17,6 +17,23 @@
     }
   },
   {
+    "repo": "deretame/Breeze-plugin-bikaComic",
+    "manifest": {
+      "name": "哔咔漫画",
+      "uuid": "0a0e5858-a467-4702-994a-79e608a4589d",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-bikaComic/main/assets/logo_round.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "哔咔漫画插件",
+      "version": "0.0.10",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
+      "npmName": "breeze-plugin-bika-comic"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-ehentai",
     "manifest": {
       "name": "e-hentai",
@@ -65,23 +82,6 @@
       "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
       "npmName": "breeze-plugin-zai-man-hua"
-    }
-  },
-  {
-    "repo": "deretame/Breeze-plugin-bikaComic",
-    "manifest": {
-      "name": "哔咔漫画",
-      "uuid": "0a0e5858-a467-4702-994a-79e608a4589d",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-bikaComic/main/assets/logo_round.webp",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "哔咔漫画插件",
-      "version": "0.0.9",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
-      "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
-      "npmName": "breeze-plugin-bika-comic"
     }
   },
   {

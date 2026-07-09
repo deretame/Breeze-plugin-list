@@ -49,6 +49,68 @@ function normalizeManifest(manifest) {
   return rest;
 }
 
+function generatePluginListMarkdown(results) {
+  const sortedResults = [...results].sort((a, b) => {
+    const nameA = a.manifest.name || a.repo;
+    const nameB = b.manifest.name || b.repo;
+    return nameA.localeCompare(nameB, "zh-CN");
+  });
+
+  const lines = [
+    "<!-- PLUGIN_LIST_START -->",
+    "<!-- 以下内容由 GitHub Actions 自动更新，请勿手动修改 -->",
+    "",
+    "| 插件 | 仓库 |",
+    "|------|------|",
+  ];
+
+  for (const { repo, manifest } of sortedResults) {
+    const name = manifest.name || repo;
+    const home = manifest.home;
+    const repoUrl = `https://github.com/${repo}`;
+
+    const nameCell = home ? `[${name}](${home})` : name;
+    const repoCell = `[${repo}](${repoUrl})`;
+
+    lines.push(`| ${nameCell} | ${repoCell} |`);
+  }
+
+  lines.push("");
+  lines.push("<!-- PLUGIN_LIST_END -->");
+
+  return lines.join("\n");
+}
+
+function updateReadme(results) {
+  const readmePath = "README.md";
+  if (!fs.existsSync(readmePath)) {
+    console.log("! README.md 不存在，跳过更新插件列表");
+    return;
+  }
+
+  let readme = fs.readFileSync(readmePath, "utf-8");
+  const markerStart = "<!-- PLUGIN_LIST_START -->";
+  const markerEnd = "<!-- PLUGIN_LIST_END -->";
+
+  const startIndex = readme.indexOf(markerStart);
+  const endIndex = readme.indexOf(markerEnd);
+
+  if (startIndex === -1 || endIndex === -1 || endIndex <= startIndex) {
+    console.log("! README.md 中未找到插件列表占位标记，跳过更新");
+    return;
+  }
+
+  const newSection = generatePluginListMarkdown(results);
+
+  readme =
+    readme.slice(0, startIndex) +
+    newSection +
+    readme.slice(endIndex + markerEnd.length);
+
+  fs.writeFileSync(readmePath, readme, "utf-8");
+  console.log("README.md 插件列表已更新");
+}
+
 async function run() {
   try {
     let hasNextPage = true;
@@ -98,6 +160,10 @@ async function run() {
       JSON.stringify(allResults, null, 2),
       "utf-8",
     );
+
+    // 同步更新 README.md 中的插件列表
+    updateReadme(allResults);
+
     console.log(`\n全部任务完成！`);
     console.log(`累计扫描仓库: ${totalProcessed}`);
     console.log(`成功保存插件: ${allResults.length}`);

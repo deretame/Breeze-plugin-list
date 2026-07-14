@@ -24,7 +24,7 @@
 | [漫画柜](https://github.com/deretame/Breeze-plugin-ManHuaGui) | [deretame/Breeze-plugin-ManHuaGui](https://github.com/deretame/Breeze-plugin-ManHuaGui) |
 | [如漫画](https://github.com/deretame/Breeze-plugin-RuManHua) | [deretame/Breeze-plugin-RuManHua](https://github.com/deretame/Breeze-plugin-RuManHua) |
 | [绅士漫画](https://github.com/deretame/Breeze-plugin-shenShiManHua) | [deretame/Breeze-plugin-shenShiManHua](https://github.com/deretame/Breeze-plugin-shenShiManHua) |
-| 蛙漫3 | [deretame/Breeze-plugin-WaMan3](https://github.com/deretame/Breeze-plugin-WaMan3) |
+| [蛙漫3](https://github.com/deretame/Breeze-plugin-WaMan3) | [deretame/Breeze-plugin-WaMan3](https://github.com/deretame/Breeze-plugin-WaMan3) |
 | [再漫画](https://github.com/deretame/Breeze-plugin-zaiManHuan) | [deretame/Breeze-plugin-zaiManHuan](https://github.com/deretame/Breeze-plugin-zaiManHuan) |
 | [e-hentai](https://github.com/deretame/Breeze-plugin-ehentai) | [deretame/Breeze-plugin-ehentai](https://github.com/deretame/Breeze-plugin-ehentai) |
 | [Komiic](https://github.com/deretame/Breeze-plugin-komiic) | [deretame/Breeze-plugin-komiic](https://github.com/deretame/Breeze-plugin-komiic) |

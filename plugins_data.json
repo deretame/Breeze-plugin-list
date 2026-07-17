@@ -136,6 +136,23 @@
     }
   },
   {
+    "repo": "deretame/Breeze-plugin-webtoon",
+    "manifest": {
+      "name": "WEBTOON",
+      "uuid": "7efa2a7c-da0f-4db1-9167-98045ae37fdb",
+      "iconUrl": "https://webtoons-static.pstatic.net/image/favicon/favicon.ico",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "WEBTOON 官方 Web 端源",
+      "version": "0.0.1",
+      "home": "https://www.webtoons.com",
+      "updateUrl": "",
+      "npmName": "breeze-plugin-webtoon"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-NoyAcg",
     "manifest": {
       "name": "NoyAcg",

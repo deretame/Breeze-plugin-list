@@ -30,6 +30,7 @@
 | [Komiic](https://github.com/deretame/Breeze-plugin-komiic) | [deretame/Breeze-plugin-komiic](https://github.com/deretame/Breeze-plugin-komiic) |
 | [nhentai](https://github.com/deretame/Breeze-plugin-nhentai) | [deretame/Breeze-plugin-nhentai](https://github.com/deretame/Breeze-plugin-nhentai) |
 | [NoyAcg](https://github.com/deretame/Breeze-plugin-NoyAcg) | [deretame/Breeze-plugin-NoyAcg](https://github.com/deretame/Breeze-plugin-NoyAcg) |
+| [WEBTOON](https://www.webtoons.com) | [deretame/Breeze-plugin-webtoon](https://github.com/deretame/Breeze-plugin-webtoon) |
 
 <!-- PLUGIN_LIST_END -->
 

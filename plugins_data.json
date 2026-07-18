@@ -146,7 +146,7 @@
         "describe": ""
       },
       "describe": "WEBTOON official web source",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "home": "https://www.webtoons.com",
       "updateUrl": "",
       "npmName": "breeze-plugin-webtoon"

@@ -128,8 +128,8 @@
         "name": "",
         "describe": ""
       },
-      "describe": "WEBTOON official web source",
-      "version": "0.0.3",
+      "describe": "WEBTOON official App API source (Original + Canvas)",
+      "version": "0.0.4",
       "home": "https://www.webtoons.com",
       "updateUrl": "",
       "npmName": "breeze-plugin-webtoon"

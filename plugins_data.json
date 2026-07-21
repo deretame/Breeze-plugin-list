@@ -204,23 +204,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-WaMan3",
-    "manifest": {
-      "name": "蛙漫3",
-      "uuid": "4471434f-c73a-4dd3-b414-a6a53777d8e0",
-      "iconUrl": "https://manwa.wang/template/wap/32/images/top_icon.png",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "蛙漫插件",
-      "version": "0.0.1",
-      "home": "https://github.com/deretame/Breeze-plugin-WaMan3",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-WaMan3/releases/latest",
-      "npmName": "breeze-plugin-waman3"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-RuManHua",
     "manifest": {
       "name": "如漫画",
@@ -235,6 +218,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-RuManHua",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-RuManHua/releases/latest",
       "npmName": "breeze-plugin-ru-man-hua"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-WaMan3",
+    "manifest": {
+      "name": "蛙漫3",
+      "uuid": "4471434f-c73a-4dd3-b414-a6a53777d8e0",
+      "iconUrl": "https://manwa.wang/template/wap/32/images/top_icon.png",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "蛙漫插件",
+      "version": "0.0.1",
+      "home": "https://github.com/deretame/Breeze-plugin-WaMan3",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-WaMan3/releases/latest",
+      "npmName": "breeze-plugin-waman3"
     }
   },
   {

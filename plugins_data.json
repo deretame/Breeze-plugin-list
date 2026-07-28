@@ -102,23 +102,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-nhentai",
-    "manifest": {
-      "name": "nhentai",
-      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
-      "creator": {
-        "name": "Breeze plugin",
-        "describe": "nhentai source adapter"
-      },
-      "describe": "nhentai 漫画源插件",
-      "version": "0.0.4",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
-      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
-      "npmName": "breeze-plugin-nhentai"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-komiic",
     "manifest": {
       "name": "Komiic",
@@ -133,6 +116,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-komiic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
       "npmName": "breeze-plugin-komiic"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-nhentai",
+    "manifest": {
+      "name": "nhentai",
+      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
+      "creator": {
+        "name": "Breeze plugin",
+        "describe": "nhentai source adapter"
+      },
+      "describe": "nhentai 漫画源插件",
+      "version": "0.0.4",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
+      "npmName": "breeze-plugin-nhentai"
     }
   },
   {
@@ -204,23 +204,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-ManHuaGui",
-    "manifest": {
-      "name": "漫画柜",
-      "uuid": "1f03ebc7-997d-494a-abb5-a06d60094f44",
-      "iconUrl": "https://tw.manhuagui.com/favicon.ico",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "漫画柜（看漫画）繁体版源站插件",
-      "version": "0.0.2",
-      "home": "https://github.com/deretame/Breeze-plugin-ManHuaGui",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ManHuaGui/releases/latest",
-      "npmName": "breeze-plugin-man-hua-gui"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-RuManHua",
     "manifest": {
       "name": "如漫画",
@@ -235,6 +218,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-RuManHua",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-RuManHua/releases/latest",
       "npmName": "breeze-plugin-ru-man-hua"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-ManHuaGui",
+    "manifest": {
+      "name": "漫画柜",
+      "uuid": "1f03ebc7-997d-494a-abb5-a06d60094f44",
+      "iconUrl": "https://tw.manhuagui.com/favicon.ico",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "漫画柜（看漫画）繁体版源站插件",
+      "version": "0.0.2",
+      "home": "https://github.com/deretame/Breeze-plugin-ManHuaGui",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ManHuaGui/releases/latest",
+      "npmName": "breeze-plugin-man-hua-gui"
     }
   },
   {

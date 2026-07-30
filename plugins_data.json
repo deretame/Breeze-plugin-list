@@ -153,23 +153,6 @@
     }
   },
   {
-    "repo": "Enigma-Soul/Breeze-plugin-baozimh-plus",
-    "manifest": {
-      "name": "包子漫画 Plus",
-      "uuid": "791a42eb-cfff-4c12-86c4-cf4ce60bb1fe",
-      "iconUrl": "https://www.baozimh.com/favicon.ico",
-      "creator": {
-        "name": "Enigma_Soul",
-        "describe": "包子漫画增强插件"
-      },
-      "describe": "包子漫画增强：翻页预读",
-      "version": "0.5.1",
-      "home": "https://github.com/Enigma-Soul/Breeze-plugin-baozimh-plus",
-      "updateUrl": "https://api.github.com/repos/Enigma-Soul/Breeze-plugin-baozimh-plus/releases/latest",
-      "npmName": "breeze-plugin-baozimh-plus"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-NoyAcg",
     "manifest": {
       "name": "NoyAcg",
@@ -184,6 +167,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-NoyAcg",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-NoyAcg/releases/latest",
       "npmName": "breeze-plugin-noy-acg"
+    }
+  },
+  {
+    "repo": "Enigma-Soul/Breeze-plugin-baozimh-plus",
+    "manifest": {
+      "name": "包子漫画 Plus",
+      "uuid": "791a42eb-cfff-4c12-86c4-cf4ce60bb1fe",
+      "iconUrl": "https://www.baozimh.com/favicon.ico",
+      "creator": {
+        "name": "Enigma_Soul",
+        "describe": "包子漫画增强插件"
+      },
+      "describe": "包子漫画增强：翻页预读",
+      "version": "0.5.1",
+      "home": "https://github.com/Enigma-Soul/Breeze-plugin-baozimh-plus",
+      "updateUrl": "https://api.github.com/repos/Enigma-Soul/Breeze-plugin-baozimh-plus/releases/latest",
+      "npmName": "breeze-plugin-baozimh-plus"
     }
   },
   {
@@ -204,23 +204,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-RuManHua",
-    "manifest": {
-      "name": "如漫画",
-      "uuid": "4c2f8df0-3916-4924-b4cd-4e6b8d340a73",
-      "iconUrl": "https://www.rumanhua2.com/static/images/logo.png",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "如漫画源插件",
-      "version": "0.0.3",
-      "home": "https://github.com/deretame/Breeze-plugin-RuManHua",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-RuManHua/releases/latest",
-      "npmName": "breeze-plugin-ru-man-hua"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-WaMan3",
     "manifest": {
       "name": "蛙漫3",
@@ -235,6 +218,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-WaMan3",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-WaMan3/releases/latest",
       "npmName": "breeze-plugin-waman3"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-RuManHua",
+    "manifest": {
+      "name": "如漫画",
+      "uuid": "4c2f8df0-3916-4924-b4cd-4e6b8d340a73",
+      "iconUrl": "https://www.rumanhua2.com/static/images/logo.png",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "如漫画源插件",
+      "version": "0.0.3",
+      "home": "https://github.com/deretame/Breeze-plugin-RuManHua",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-RuManHua/releases/latest",
+      "npmName": "breeze-plugin-ru-man-hua"
     }
   },
   {

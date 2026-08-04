@@ -153,23 +153,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-NoyAcg",
-    "manifest": {
-      "name": "NoyAcg",
-      "uuid": "babe7021-2df8-4abc-bba8-00bbfd7a0f75",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-NoyAcg/main/assets/ic_launcher_foreground.webp",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "NoyAcg 插件",
-      "version": "0.0.3",
-      "home": "https://github.com/deretame/Breeze-plugin-NoyAcg",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-NoyAcg/releases/latest",
-      "npmName": "breeze-plugin-noy-acg"
-    }
-  },
-  {
     "repo": "Enigma-Soul/Breeze-plugin-baozimh-plus",
     "manifest": {
       "name": "包子漫画 Plus",
@@ -184,6 +167,23 @@
       "home": "https://github.com/Enigma-Soul/Breeze-plugin-baozimh-plus",
       "updateUrl": "https://api.github.com/repos/Enigma-Soul/Breeze-plugin-baozimh-plus/releases/latest",
       "npmName": "breeze-plugin-baozimh-plus"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-NoyAcg",
+    "manifest": {
+      "name": "NoyAcg",
+      "uuid": "babe7021-2df8-4abc-bba8-00bbfd7a0f75",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-NoyAcg/main/assets/ic_launcher_foreground.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "NoyAcg 插件",
+      "version": "0.0.3",
+      "home": "https://github.com/deretame/Breeze-plugin-NoyAcg",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-NoyAcg/releases/latest",
+      "npmName": "breeze-plugin-noy-acg"
     }
   },
   {

@@ -119,23 +119,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-webtoon",
-    "manifest": {
-      "name": "WEBTOON",
-      "uuid": "7efa2a7c-da0f-4db1-9167-98045ae37fdb",
-      "iconUrl": "https://webtoons-static.pstatic.net/image/favicon/favicon.ico",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "WEBTOON official App API source (Original + Canvas)",
-      "version": "0.0.4",
-      "home": "https://www.webtoons.com",
-      "updateUrl": "",
-      "npmName": "breeze-plugin-webtoon"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-nhentai",
     "manifest": {
       "name": "nhentai",
@@ -150,6 +133,23 @@
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-nhentai",
       "npmName": "breeze-plugin-nhentai"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-webtoon",
+    "manifest": {
+      "name": "WEBTOON",
+      "uuid": "7efa2a7c-da0f-4db1-9167-98045ae37fdb",
+      "iconUrl": "https://webtoons-static.pstatic.net/image/favicon/favicon.ico",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "WEBTOON official App API source (Original + Canvas)",
+      "version": "0.0.4",
+      "home": "https://www.webtoons.com",
+      "updateUrl": "",
+      "npmName": "breeze-plugin-webtoon"
     }
   },
   {

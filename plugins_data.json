@@ -102,23 +102,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-komiic",
-    "manifest": {
-      "name": "Komiic",
-      "uuid": "cafbf766-0231-4f99-ace4-0a26631fff12",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-komiic/main/assets/app_icon.webp",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "Komiic 漫画源插件",
-      "version": "0.0.4",
-      "home": "https://github.com/deretame/Breeze-plugin-komiic",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
-      "npmName": "breeze-plugin-komiic"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-nhentai",
     "manifest": {
       "name": "nhentai",
@@ -133,6 +116,23 @@
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-nhentai",
       "npmName": "breeze-plugin-nhentai"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-komiic",
+    "manifest": {
+      "name": "Komiic",
+      "uuid": "cafbf766-0231-4f99-ace4-0a26631fff12",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-komiic/main/assets/app_icon.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "Komiic 漫画源插件",
+      "version": "0.0.4",
+      "home": "https://github.com/deretame/Breeze-plugin-komiic",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
+      "npmName": "breeze-plugin-komiic"
     }
   },
   {

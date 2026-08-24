@@ -119,6 +119,22 @@
     }
   },
   {
+    "repo": "wuuduf/Breeze-plugin-toomics",
+    "manifest": {
+      "name": "Toomics",
+      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
+      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
+      "creator": {
+        "name": "jelly",
+        "describe": "Toomics 漫画插件"
+      },
+      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
+      "version": "0.3.6",
+      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
+      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-nhentai",
     "manifest": {
       "name": "nhentai",
@@ -133,22 +149,6 @@
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-nhentai",
       "npmName": "breeze-plugin-nhentai"
-    }
-  },
-  {
-    "repo": "wuuduf/Breeze-plugin-toomics",
-    "manifest": {
-      "name": "Toomics",
-      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
-      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
-      "creator": {
-        "name": "jelly",
-        "describe": "Toomics 漫画插件"
-      },
-      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
-      "version": "0.3.6",
-      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
-      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
     }
   },
   {

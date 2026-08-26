@@ -85,22 +85,6 @@
     }
   },
   {
-    "repo": "wuuduf/Breeze-plugin-toomics",
-    "manifest": {
-      "name": "Toomics",
-      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
-      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
-      "creator": {
-        "name": "jelly",
-        "describe": "Toomics 漫画插件"
-      },
-      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
-      "version": "0.3.6",
-      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
-      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-komiic",
     "manifest": {
       "name": "Komiic",
@@ -118,20 +102,19 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-jjmhw",
+    "repo": "wuuduf/Breeze-plugin-toomics",
     "manifest": {
-      "name": "JJ漫画",
-      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
-      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
+      "name": "Toomics",
+      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
+      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
       "creator": {
-        "name": "Breeze",
-        "describe": "jjmhw.cc 漫画源适配"
+        "name": "jelly",
+        "describe": "Toomics 漫画插件"
       },
-      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
-      "version": "0.0.1",
-      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
-      "npmName": "breeze-plugin-jjmhw"
+      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
+      "version": "0.3.6",
+      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
+      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
     }
   },
   {
@@ -149,6 +132,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-baozimh",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
       "npmName": "breeze-plugin-baozimh"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-jjmhw",
+    "manifest": {
+      "name": "JJ漫画",
+      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
+      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
+      "creator": {
+        "name": "Breeze",
+        "describe": "jjmhw.cc 漫画源适配"
+      },
+      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
+      "version": "0.0.1",
+      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
+      "npmName": "breeze-plugin-jjmhw"
     }
   },
   {

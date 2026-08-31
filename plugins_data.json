@@ -27,7 +27,7 @@
         "describe": ""
       },
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.36",
+      "version": "0.0.37",
       "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
       "npmName": "breeze-plugin-ehentai"
@@ -85,6 +85,22 @@
     }
   },
   {
+    "repo": "wuuduf/Breeze-plugin-toomics",
+    "manifest": {
+      "name": "Toomics",
+      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
+      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
+      "creator": {
+        "name": "jelly",
+        "describe": "Toomics 漫画插件"
+      },
+      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
+      "version": "0.3.6",
+      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
+      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-baozimh",
     "manifest": {
       "name": "包子漫画",
@@ -119,23 +135,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-nhentai",
-    "manifest": {
-      "name": "nhentai",
-      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
-      "creator": {
-        "name": "Breeze plugin",
-        "describe": "nhentai source adapter"
-      },
-      "describe": "nhentai 漫画源插件",
-      "version": "0.0.4",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
-      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
-      "npmName": "breeze-plugin-nhentai"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-jjmhw",
     "manifest": {
       "name": "JJ漫画",
@@ -153,19 +152,20 @@
     }
   },
   {
-    "repo": "wuuduf/Breeze-plugin-toomics",
+    "repo": "deretame/Breeze-plugin-nhentai",
     "manifest": {
-      "name": "Toomics",
-      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
-      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
+      "name": "nhentai",
+      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
       "creator": {
-        "name": "jelly",
-        "describe": "Toomics 漫画插件"
+        "name": "Breeze plugin",
+        "describe": "nhentai source adapter"
       },
-      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
-      "version": "0.3.6",
-      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
-      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
+      "describe": "nhentai 漫画源插件",
+      "version": "0.0.4",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
+      "npmName": "breeze-plugin-nhentai"
     }
   },
   {

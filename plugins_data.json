@@ -85,20 +85,20 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-nhentai",
+    "repo": "deretame/Breeze-plugin-komiic",
     "manifest": {
-      "name": "nhentai",
-      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
+      "name": "Komiic",
+      "uuid": "cafbf766-0231-4f99-ace4-0a26631fff12",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-komiic/main/assets/app_icon.webp",
       "creator": {
-        "name": "Breeze plugin",
-        "describe": "nhentai source adapter"
+        "name": "",
+        "describe": ""
       },
-      "describe": "nhentai 漫画源插件",
-      "version": "0.0.5",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
-      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
-      "npmName": "breeze-plugin-nhentai"
+      "describe": "Komiic 漫画源插件",
+      "version": "0.0.4",
+      "home": "https://github.com/deretame/Breeze-plugin-komiic",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
+      "npmName": "breeze-plugin-komiic"
     }
   },
   {
@@ -119,20 +119,36 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-komiic",
+    "repo": "wuuduf/Breeze-plugin-toomics",
     "manifest": {
-      "name": "Komiic",
-      "uuid": "cafbf766-0231-4f99-ace4-0a26631fff12",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-komiic/main/assets/app_icon.webp",
+      "name": "Toomics",
+      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
+      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
       "creator": {
-        "name": "",
-        "describe": ""
+        "name": "jelly",
+        "describe": "Toomics 漫画插件"
       },
-      "describe": "Komiic 漫画源插件",
-      "version": "0.0.4",
-      "home": "https://github.com/deretame/Breeze-plugin-komiic",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
-      "npmName": "breeze-plugin-komiic"
+      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
+      "version": "0.3.6",
+      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
+      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-nhentai",
+    "manifest": {
+      "name": "nhentai",
+      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
+      "creator": {
+        "name": "Breeze plugin",
+        "describe": "nhentai source adapter"
+      },
+      "describe": "nhentai 漫画源插件",
+      "version": "0.0.5",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
+      "npmName": "breeze-plugin-nhentai"
     }
   },
   {
@@ -150,22 +166,6 @@
       "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
       "npmName": "breeze-plugin-jjmhw"
-    }
-  },
-  {
-    "repo": "wuuduf/Breeze-plugin-toomics",
-    "manifest": {
-      "name": "Toomics",
-      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
-      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
-      "creator": {
-        "name": "jelly",
-        "describe": "Toomics 漫画插件"
-      },
-      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
-      "version": "0.3.6",
-      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
-      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
     }
   },
   {

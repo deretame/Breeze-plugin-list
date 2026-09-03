@@ -27,7 +27,7 @@
         "describe": ""
       },
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.37",
+      "version": "0.0.38",
       "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
       "npmName": "breeze-plugin-ehentai"
@@ -85,6 +85,23 @@
     }
   },
   {
+    "repo": "deretame/Breeze-plugin-nhentai",
+    "manifest": {
+      "name": "nhentai",
+      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
+      "creator": {
+        "name": "Breeze plugin",
+        "describe": "nhentai source adapter"
+      },
+      "describe": "nhentai 漫画源插件",
+      "version": "0.0.5",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
+      "npmName": "breeze-plugin-nhentai"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-komiic",
     "manifest": {
       "name": "Komiic",
@@ -132,23 +149,6 @@
       "version": "0.3.6",
       "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
       "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
-    }
-  },
-  {
-    "repo": "deretame/Breeze-plugin-nhentai",
-    "manifest": {
-      "name": "nhentai",
-      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
-      "creator": {
-        "name": "Breeze plugin",
-        "describe": "nhentai source adapter"
-      },
-      "describe": "nhentai 漫画源插件",
-      "version": "0.0.5",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
-      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
-      "npmName": "breeze-plugin-nhentai"
     }
   },
   {

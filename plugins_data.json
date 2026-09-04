@@ -119,20 +119,20 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-baozimh",
+    "repo": "deretame/Breeze-plugin-jjmhw",
     "manifest": {
-      "name": "包子漫画",
-      "uuid": "1b3c1e94-d9a0-4649-b75f-acd1f18d75e8",
-      "iconUrl": "https://www.baozimh.com/favicon.ico",
+      "name": "JJ漫画",
+      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
+      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
       "creator": {
-        "name": "",
-        "describe": ""
+        "name": "Breeze",
+        "describe": "jjmhw.cc 漫画源适配"
       },
-      "describe": "包子漫画抓取插件",
-      "version": "0.0.2",
-      "home": "https://github.com/deretame/Breeze-plugin-baozimh",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
-      "npmName": "breeze-plugin-baozimh"
+      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
+      "version": "0.0.1",
+      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
+      "npmName": "breeze-plugin-jjmhw"
     }
   },
   {
@@ -153,20 +153,20 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-jjmhw",
+    "repo": "deretame/Breeze-plugin-baozimh",
     "manifest": {
-      "name": "JJ漫画",
-      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
-      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
+      "name": "包子漫画",
+      "uuid": "1b3c1e94-d9a0-4649-b75f-acd1f18d75e8",
+      "iconUrl": "https://www.baozimh.com/favicon.ico",
       "creator": {
-        "name": "Breeze",
-        "describe": "jjmhw.cc 漫画源适配"
+        "name": "",
+        "describe": ""
       },
-      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
-      "version": "0.0.1",
-      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
-      "npmName": "breeze-plugin-jjmhw"
+      "describe": "包子漫画抓取插件",
+      "version": "0.0.2",
+      "home": "https://github.com/deretame/Breeze-plugin-baozimh",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
+      "npmName": "breeze-plugin-baozimh"
     }
   },
   {

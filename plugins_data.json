@@ -119,23 +119,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-baozimh",
-    "manifest": {
-      "name": "包子漫画",
-      "uuid": "1b3c1e94-d9a0-4649-b75f-acd1f18d75e8",
-      "iconUrl": "https://www.baozimh.com/favicon.ico",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "包子漫画抓取插件",
-      "version": "0.0.2",
-      "home": "https://github.com/deretame/Breeze-plugin-baozimh",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
-      "npmName": "breeze-plugin-baozimh"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-jjmhw",
     "manifest": {
       "name": "JJ漫画",
@@ -153,20 +136,20 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-webtoon",
+    "repo": "deretame/Breeze-plugin-baozimh",
     "manifest": {
-      "name": "WEBTOON",
-      "uuid": "7efa2a7c-da0f-4db1-9167-98045ae37fdb",
-      "iconUrl": "https://webtoons-static.pstatic.net/image/favicon/favicon.ico",
+      "name": "包子漫画",
+      "uuid": "1b3c1e94-d9a0-4649-b75f-acd1f18d75e8",
+      "iconUrl": "https://www.baozimh.com/favicon.ico",
       "creator": {
         "name": "",
         "describe": ""
       },
-      "describe": "WEBTOON official App API source (Original + Canvas)",
-      "version": "0.0.4",
-      "home": "https://www.webtoons.com",
-      "updateUrl": "",
-      "npmName": "breeze-plugin-webtoon"
+      "describe": "包子漫画抓取插件",
+      "version": "0.0.2",
+      "home": "https://github.com/deretame/Breeze-plugin-baozimh",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
+      "npmName": "breeze-plugin-baozimh"
     }
   },
   {
@@ -183,6 +166,23 @@
       "version": "0.3.6",
       "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
       "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-webtoon",
+    "manifest": {
+      "name": "WEBTOON",
+      "uuid": "7efa2a7c-da0f-4db1-9167-98045ae37fdb",
+      "iconUrl": "https://webtoons-static.pstatic.net/image/favicon/favicon.ico",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "WEBTOON official App API source (Original + Canvas)",
+      "version": "0.0.4",
+      "home": "https://www.webtoons.com",
+      "updateUrl": "",
+      "npmName": "breeze-plugin-webtoon"
     }
   },
   {

@@ -23,6 +23,7 @@
 | [拷贝漫画](https://github.com/deretame/Breeze-plugin-copyComic) | [deretame/Breeze-plugin-copyComic](https://github.com/deretame/Breeze-plugin-copyComic) |
 | [漫画柜](https://github.com/deretame/Breeze-plugin-ManHuaGui) | [deretame/Breeze-plugin-ManHuaGui](https://github.com/deretame/Breeze-plugin-ManHuaGui) |
 | [如漫画](https://github.com/deretame/Breeze-plugin-RuManHua) | [deretame/Breeze-plugin-RuManHua](https://github.com/deretame/Breeze-plugin-RuManHua) |
+| [色友漫画（seyoumanhua）](https://seyoumanhua.com/) | [teng662858/Breeze-plugin-seyoumanhua](https://github.com/teng662858/Breeze-plugin-seyoumanhua) |
 | [绅士漫画](https://github.com/deretame/Breeze-plugin-shenShiManHua) | [deretame/Breeze-plugin-shenShiManHua](https://github.com/deretame/Breeze-plugin-shenShiManHua) |
 | [蛙漫3](https://github.com/deretame/Breeze-plugin-WaMan3) | [deretame/Breeze-plugin-WaMan3](https://github.com/deretame/Breeze-plugin-WaMan3) |
 | [再漫画](https://github.com/deretame/Breeze-plugin-zaiManHuan) | [deretame/Breeze-plugin-zaiManHuan](https://github.com/deretame/Breeze-plugin-zaiManHuan) |

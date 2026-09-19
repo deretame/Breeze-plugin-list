@@ -102,6 +102,23 @@
     }
   },
   {
+    "repo": "teng662858/Breeze-plugin-seyoumanhua",
+    "manifest": {
+      "name": "色友漫画（seyoumanhua）",
+      "uuid": "9c4e2b71-6f38-4a52-8d19-5e7b0c3a2f64",
+      "iconUrl": "https://seyoumanhua.com/template/pc/skin01/images/pic_nav_logo.png",
+      "creator": {
+        "name": "seyoumanhua-source",
+        "describe": "基于 seyoumanhua.com 页面解析的第三方图源插件"
+      },
+      "describe": "色友漫画 图源：搜索、分类书库、排行榜、在线阅读与下载。纯 HTML 解析，无需登录。",
+      "version": "1.0.0",
+      "home": "https://seyoumanhua.com/",
+      "npmName": "breeze-plugin-seyoumanhua",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-seyoumanhua/releases/latest"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-baozimh",
     "manifest": {
       "name": "包子漫画",

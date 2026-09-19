@@ -111,8 +111,8 @@
         "name": "seyoumanhua-source",
         "describe": "基于 seyoumanhua.com 页面解析的第三方图源插件"
       },
-      "describe": "色友漫画 图源：搜索、分类书库、排行榜、在线阅读与下载。纯 HTML 解析，无需登录。",
-      "version": "1.0.0",
+      "describe": "色友漫画 图源：排行榜、分类书库（25 个分类可筛）、搜索、在线阅读与下载。纯 HTML 解析，无需登录。",
+      "version": "1.2.1",
       "home": "https://seyoumanhua.com/",
       "npmName": "breeze-plugin-seyoumanhua",
       "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-seyoumanhua/releases/latest"
@@ -136,6 +136,22 @@
     }
   },
   {
+    "repo": "wuuduf/Breeze-plugin-toomics",
+    "manifest": {
+      "name": "Toomics",
+      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
+      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
+      "creator": {
+        "name": "jelly",
+        "describe": "Toomics 漫画插件"
+      },
+      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
+      "version": "0.3.6",
+      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
+      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-nhentai",
     "manifest": {
       "name": "nhentai",
@@ -150,23 +166,6 @@
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-nhentai",
       "npmName": "breeze-plugin-nhentai"
-    }
-  },
-  {
-    "repo": "deretame/Breeze-plugin-jjmhw",
-    "manifest": {
-      "name": "JJ漫画",
-      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
-      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
-      "creator": {
-        "name": "Breeze",
-        "describe": "jjmhw.cc 漫画源适配"
-      },
-      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
-      "version": "0.0.1",
-      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
-      "npmName": "breeze-plugin-jjmhw"
     }
   },
   {
@@ -187,6 +186,40 @@
     }
   },
   {
+    "repo": "teng662858/Breeze-plugin-nnhanman",
+    "manifest": {
+      "name": "鸟鸟韩漫（nnhanman）",
+      "uuid": "4d7a1e83-2c95-4b60-a8f2-6e1d9b0c7538",
+      "iconUrl": "https://nnhanman.com/images/logo.png",
+      "creator": {
+        "name": "nnhanman-source",
+        "describe": "基于 nnhanman 系列域名页面解析的第三方图源插件"
+      },
+      "describe": "鸟鸟韩漫 图源：排行榜、更新栏目、分类书库（21 个分类可筛）、搜索、在线阅读与下载。内置 6 个镜像域名，主站失效自动切换。",
+      "version": "1.2.1",
+      "home": "https://nnhanman.com/",
+      "npmName": "breeze-plugin-nnhanman",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-nnhanman/releases/latest"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-jjmhw",
+    "manifest": {
+      "name": "JJ漫画",
+      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
+      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
+      "creator": {
+        "name": "Breeze",
+        "describe": "jjmhw.cc 漫画源适配"
+      },
+      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
+      "version": "0.0.1",
+      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
+      "npmName": "breeze-plugin-jjmhw"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-webtoon",
     "manifest": {
       "name": "WEBTOON",
@@ -204,22 +237,6 @@
     }
   },
   {
-    "repo": "wuuduf/Breeze-plugin-toomics",
-    "manifest": {
-      "name": "Toomics",
-      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
-      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
-      "creator": {
-        "name": "jelly",
-        "describe": "Toomics 漫画插件"
-      },
-      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
-      "version": "0.3.6",
-      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
-      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
-    }
-  },
-  {
     "repo": "Enigma-Soul/Breeze-plugin-baozimh-plus",
     "manifest": {
       "name": "包子漫画 Plus",
@@ -233,6 +250,23 @@
       "version": "0.5.2",
       "home": "https://github.com/Enigma-Soul/Breeze-plugin-baozimh-plus",
       "updateUrl": "https://api.github.com/repos/Enigma-Soul/Breeze-plugin-baozimh-plus/releases/latest"
+    }
+  },
+  {
+    "repo": "teng662858/Breeze-plugin-hanman18",
+    "manifest": {
+      "name": "禁漫天堂（hanman18）",
+      "uuid": "8f3a5c27-1d64-4e93-b7a0-52c8f6e910d4",
+      "iconUrl": "https://hanman18.com/hanman18.png?v=1.1",
+      "creator": {
+        "name": "hanman18-source",
+        "describe": "基于 hanman18.com 页面解析的第三方图源插件"
+      },
+      "describe": "禁漫天堂 图源：书库、体裁分类、最近更新、搜索、在线阅读与下载。",
+      "version": "1.0.0",
+      "home": "https://hanman18.com/",
+      "npmName": "breeze-plugin-hanman18",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-hanman18/releases/latest"
     }
   },
   {

@@ -152,40 +152,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-komiic",
-    "manifest": {
-      "name": "Komiic",
-      "uuid": "cafbf766-0231-4f99-ace4-0a26631fff12",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-komiic/main/assets/app_icon.webp",
-      "creator": {
-        "name": "",
-        "describe": ""
-      },
-      "describe": "Komiic 漫画源插件",
-      "version": "0.0.4",
-      "home": "https://github.com/deretame/Breeze-plugin-komiic",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
-      "npmName": "breeze-plugin-komiic"
-    }
-  },
-  {
-    "repo": "teng662858/Breeze-plugin-nnhanman",
-    "manifest": {
-      "name": "鸟鸟韩漫（nnhanman）",
-      "uuid": "4d7a1e83-2c95-4b60-a8f2-6e1d9b0c7538",
-      "iconUrl": "https://nnhanman.com/images/logo.png",
-      "creator": {
-        "name": "nnhanman-source",
-        "describe": "基于 nnhanman 系列域名页面解析的第三方图源插件"
-      },
-      "describe": "鸟鸟韩漫 图源：排行榜、更新栏目、分类书库（21 个分类可筛）、搜索、在线阅读与下载。内置 6 个镜像域名，主站失效自动切换。",
-      "version": "1.2.1",
-      "home": "https://nnhanman.com/",
-      "npmName": "breeze-plugin-nnhanman",
-      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-nnhanman/releases/latest"
-    }
-  },
-  {
     "repo": "deretame/Breeze-plugin-nhentai",
     "manifest": {
       "name": "nhentai",
@@ -217,6 +183,40 @@
       "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
       "npmName": "breeze-plugin-jjmhw"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-komiic",
+    "manifest": {
+      "name": "Komiic",
+      "uuid": "cafbf766-0231-4f99-ace4-0a26631fff12",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-komiic/main/assets/app_icon.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "Komiic 漫画源插件",
+      "version": "0.0.4",
+      "home": "https://github.com/deretame/Breeze-plugin-komiic",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
+      "npmName": "breeze-plugin-komiic"
+    }
+  },
+  {
+    "repo": "teng662858/Breeze-plugin-nnhanman",
+    "manifest": {
+      "name": "鸟鸟韩漫（nnhanman）",
+      "uuid": "4d7a1e83-2c95-4b60-a8f2-6e1d9b0c7538",
+      "iconUrl": "https://nnhanman.com/images/logo.png",
+      "creator": {
+        "name": "nnhanman-source",
+        "describe": "基于 nnhanman 系列域名页面解析的第三方图源插件"
+      },
+      "describe": "鸟鸟韩漫 图源：排行榜、更新栏目、分类书库（21 个分类可筛）、搜索、在线阅读与下载。内置 6 个镜像域名，主站失效自动切换。",
+      "version": "1.2.1",
+      "home": "https://nnhanman.com/",
+      "npmName": "breeze-plugin-nnhanman",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-nnhanman/releases/latest"
     }
   },
   {

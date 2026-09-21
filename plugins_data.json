@@ -102,24 +102,24 @@
     }
   },
   {
-    "repo": "teng662858/Breeze-plugin-hanman18",
+    "repo": "zjfb/Breeze-plugin-nnhanman",
     "manifest": {
-      "name": "禁漫天堂（hanman18）",
-      "uuid": "8f3a5c27-1d64-4e93-b7a0-52c8f6e910d4",
-      "iconUrl": "https://hanman18.com/hanman18.png?v=1.1",
+      "name": "鸟鸟韩漫（nnhanman）",
+      "uuid": "4d7a1e83-2c95-4b60-a8f2-6e1d9b0c7538",
+      "iconUrl": "https://nnhanman.com/images/logo.png",
       "creator": {
-        "name": "hanman18-source",
-        "describe": "基于 hanman18.com 页面解析的第三方图源插件"
+        "name": "nnhanman-source",
+        "describe": "基于 nnhanman 系列域名页面解析的第三方图源插件"
       },
-      "describe": "禁漫天堂 图源：书库、体裁分类、最近更新、搜索、在线阅读与下载。",
-      "version": "1.0.0",
-      "home": "https://hanman18.com/",
-      "npmName": "breeze-plugin-hanman18",
-      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-hanman18/releases/latest"
+      "describe": "鸟鸟韩漫 图源：排行榜、更新栏目、分类书库（21 个分类可筛）、搜索、在线阅读与下载。内置 6 个镜像域名，主站失效自动切换。",
+      "version": "1.2.1",
+      "home": "https://nnhanman.com/",
+      "npmName": "breeze-plugin-nnhanman",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-nnhanman/releases/latest"
     }
   },
   {
-    "repo": "teng662858/Breeze-plugin-seyoumanhua",
+    "repo": "zjfb/Breeze-plugin-seyoumanhua",
     "manifest": {
       "name": "色友漫画（seyoumanhua）",
       "uuid": "9c4e2b71-6f38-4a52-8d19-5e7b0c3a2f64",
@@ -150,22 +150,6 @@
       "home": "https://github.com/deretame/Breeze-plugin-baozimh",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
       "npmName": "breeze-plugin-baozimh"
-    }
-  },
-  {
-    "repo": "wuuduf/Breeze-plugin-toomics",
-    "manifest": {
-      "name": "Toomics",
-      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
-      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
-      "creator": {
-        "name": "jelly",
-        "describe": "Toomics 漫画插件"
-      },
-      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
-      "version": "0.3.6",
-      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
-      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
     }
   },
   {
@@ -203,6 +187,22 @@
     }
   },
   {
+    "repo": "wuuduf/Breeze-plugin-toomics",
+    "manifest": {
+      "name": "Toomics",
+      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
+      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
+      "creator": {
+        "name": "jelly",
+        "describe": "Toomics 漫画插件"
+      },
+      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
+      "version": "0.3.6",
+      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
+      "home": "https://github.com/wuuduf/Breeze-plugin-toomics"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-komiic",
     "manifest": {
       "name": "Komiic",
@@ -217,23 +217,6 @@
       "home": "https://github.com/deretame/Breeze-plugin-komiic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
       "npmName": "breeze-plugin-komiic"
-    }
-  },
-  {
-    "repo": "teng662858/Breeze-plugin-nnhanman",
-    "manifest": {
-      "name": "鸟鸟韩漫（nnhanman）",
-      "uuid": "4d7a1e83-2c95-4b60-a8f2-6e1d9b0c7538",
-      "iconUrl": "https://nnhanman.com/images/logo.png",
-      "creator": {
-        "name": "nnhanman-source",
-        "describe": "基于 nnhanman 系列域名页面解析的第三方图源插件"
-      },
-      "describe": "鸟鸟韩漫 图源：排行榜、更新栏目、分类书库（21 个分类可筛）、搜索、在线阅读与下载。内置 6 个镜像域名，主站失效自动切换。",
-      "version": "1.2.1",
-      "home": "https://nnhanman.com/",
-      "npmName": "breeze-plugin-nnhanman",
-      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-nnhanman/releases/latest"
     }
   },
   {
@@ -284,6 +267,23 @@
       "home": "https://github.com/deretame/Breeze-plugin-copyComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
       "npmName": "breeze-plugin-copy-comic"
+    }
+  },
+  {
+    "repo": "zjfb/Breeze-plugin-hanman18",
+    "manifest": {
+      "name": "禁漫天堂（hanman18）",
+      "uuid": "8f3a5c27-1d64-4e93-b7a0-52c8f6e910d4",
+      "iconUrl": "https://hanman18.com/hanman18.png?v=1.1",
+      "creator": {
+        "name": "hanman18-source",
+        "describe": "基于 hanman18.com 页面解析的第三方图源插件"
+      },
+      "describe": "禁漫天堂 图源：书库、体裁分类、最近更新、搜索、在线阅读与下载。",
+      "version": "1.0.0",
+      "home": "https://hanman18.com/",
+      "npmName": "breeze-plugin-hanman18",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-hanman18/releases/latest"
     }
   },
   {

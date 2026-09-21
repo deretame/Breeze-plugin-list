@@ -102,6 +102,23 @@
     }
   },
   {
+    "repo": "teng662858/Breeze-plugin-hanman18",
+    "manifest": {
+      "name": "禁漫天堂（hanman18）",
+      "uuid": "8f3a5c27-1d64-4e93-b7a0-52c8f6e910d4",
+      "iconUrl": "https://hanman18.com/hanman18.png?v=1.1",
+      "creator": {
+        "name": "hanman18-source",
+        "describe": "基于 hanman18.com 页面解析的第三方图源插件"
+      },
+      "describe": "禁漫天堂 图源：书库、体裁分类、最近更新、搜索、在线阅读与下载。",
+      "version": "1.0.0",
+      "home": "https://hanman18.com/",
+      "npmName": "breeze-plugin-hanman18",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-hanman18/releases/latest"
+    }
+  },
+  {
     "repo": "teng662858/Breeze-plugin-seyoumanhua",
     "manifest": {
       "name": "色友漫画（seyoumanhua）",
@@ -136,23 +153,6 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-nhentai",
-    "manifest": {
-      "name": "nhentai",
-      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
-      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
-      "creator": {
-        "name": "Breeze plugin",
-        "describe": "nhentai source adapter"
-      },
-      "describe": "nhentai 漫画源插件",
-      "version": "0.0.5",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
-      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
-      "npmName": "breeze-plugin-nhentai"
-    }
-  },
-  {
     "repo": "wuuduf/Breeze-plugin-toomics",
     "manifest": {
       "name": "Toomics",
@@ -169,20 +169,20 @@
     }
   },
   {
-    "repo": "deretame/Breeze-plugin-jjmhw",
+    "repo": "deretame/Breeze-plugin-nhentai",
     "manifest": {
-      "name": "JJ漫画",
-      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
-      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
+      "name": "nhentai",
+      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
       "creator": {
-        "name": "Breeze",
-        "describe": "jjmhw.cc 漫画源适配"
+        "name": "Breeze plugin",
+        "describe": "nhentai source adapter"
       },
-      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
-      "version": "0.0.1",
-      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
-      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
-      "npmName": "breeze-plugin-jjmhw"
+      "describe": "nhentai 漫画源插件",
+      "version": "0.0.5",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
+      "npmName": "breeze-plugin-nhentai"
     }
   },
   {
@@ -217,6 +217,23 @@
       "home": "https://nnhanman.com/",
       "npmName": "breeze-plugin-nnhanman",
       "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-nnhanman/releases/latest"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-jjmhw",
+    "manifest": {
+      "name": "JJ漫画",
+      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
+      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
+      "creator": {
+        "name": "Breeze",
+        "describe": "jjmhw.cc 漫画源适配"
+      },
+      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
+      "version": "0.0.1",
+      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
+      "npmName": "breeze-plugin-jjmhw"
     }
   },
   {
@@ -267,23 +284,6 @@
       "home": "https://github.com/deretame/Breeze-plugin-copyComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
       "npmName": "breeze-plugin-copy-comic"
-    }
-  },
-  {
-    "repo": "teng662858/Breeze-plugin-hanman18",
-    "manifest": {
-      "name": "禁漫天堂（hanman18）",
-      "uuid": "8f3a5c27-1d64-4e93-b7a0-52c8f6e910d4",
-      "iconUrl": "https://hanman18.com/hanman18.png?v=1.1",
-      "creator": {
-        "name": "hanman18-source",
-        "describe": "基于 hanman18.com 页面解析的第三方图源插件"
-      },
-      "describe": "禁漫天堂 图源：书库、体裁分类、最近更新、搜索、在线阅读与下载。",
-      "version": "1.0.0",
-      "home": "https://hanman18.com/",
-      "npmName": "breeze-plugin-hanman18",
-      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-hanman18/releases/latest"
     }
   },
   {

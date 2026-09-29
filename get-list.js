@@ -1,5 +1,13 @@
 const fs = require("fs");
+
 const GITHUB_TOKEN = process.env.GIT_TOKEN;
+const PLUGINS_DATA_PATH = "plugins_data.json";
+const README_PATH = "README.md";
+// 写入 manifest 内的权威来源字段：值为仓库 fullName（owner/name）。
+// 命名加前缀避免与插件自身字段冲突；抓取时强制覆盖 manifest 自带值，
+// 客户端以此为准即可区分 fork / 改名导致的 updateUrl/home 不一致。
+const REPO_FIELD = "breeze-plugin-github-repository";
+const EXAMPLE_REPO = "deretame/Breeze-plugin-example";
 
 async function fetchPage(cursor = null) {
   // 定义带变量的 GraphQL 查询
@@ -41,12 +49,15 @@ async function fetchPage(cursor = null) {
 
   const result = await response.json();
   if (!response.ok) throw new Error(JSON.stringify(result));
+  if (result.errors) throw new Error(JSON.stringify(result.errors));
   return result.data.search;
 }
 
-function normalizeManifest(manifest) {
-  const { function: _ignoredFunction, ...rest } = manifest;
-  return rest;
+// 剥离 function（保留字/不可序列化风险）与旧的 REPO_FIELD，后者由调用方按当前
+// 仓库 fullName 重新写入，保证来源权威且键序稳定（该字段恒为最后一个键）。
+function normalizeManifest(manifest, repo) {
+  const { function: _ignoredFunction, [REPO_FIELD]: _ignoredRepo, ...rest } = manifest;
+  return { ...rest, [REPO_FIELD]: repo };
 }
 
 function generatePluginListMarkdown(results) {
@@ -82,7 +93,7 @@ function generatePluginListMarkdown(results) {
 }
 
 function updateReadme(results) {
-  const readmePath = "README.md";
+  const readmePath = README_PATH;
   if (!fs.existsSync(readmePath)) {
     console.log("! README.md 不存在，跳过更新插件列表");
     return;
@@ -111,11 +122,22 @@ function updateReadme(results) {
   console.log("README.md 插件列表已更新");
 }
 
+function isPluginRepo(node) {
+  return (
+    node &&
+    typeof node.name === "string" &&
+    node.name.startsWith("Breeze-plugin") &&
+    node.fullName !== EXAMPLE_REPO
+  );
+}
+
 async function run() {
   try {
+    if (!GITHUB_TOKEN) throw new Error("缺少 GIT_TOKEN 环境变量");
+
     let hasNextPage = true;
     let currentCursor = null;
-    let allResults = [];
+    const byRepo = new Map();
     let totalProcessed = 0;
 
     console.log("开始分页抓取 GitHub 数据...");
@@ -128,21 +150,20 @@ async function run() {
 
       for (const node of nodes) {
         // 过滤逻辑
-        if (
-          node.name.startsWith("Breeze-plugin") &&
-          node.fullName !== "deretame/Breeze-plugin-example"
-        ) {
-          if (node.manifest && node.manifest.text) {
-            try {
-              const manifest = JSON.parse(node.manifest.text);
-              allResults.push({
-                repo: node.fullName,
-                manifest: normalizeManifest(manifest),
-              });
-            } catch (e) {
-              console.log(`! 跳过非法格式: ${node.fullName}`);
-            }
+        if (!isPluginRepo(node)) continue;
+        if (!node.manifest || !node.manifest.text) continue;
+        if (byRepo.has(node.fullName)) continue;
+        try {
+          const parsed = JSON.parse(node.manifest.text);
+          if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+            throw new Error("manifest 不是对象");
           }
+          byRepo.set(node.fullName, {
+            repo: node.fullName,
+            manifest: normalizeManifest(parsed, node.fullName),
+          });
+        } catch (e) {
+          console.log(`! 跳过非法格式: ${node.fullName}`);
         }
       }
 
@@ -154,10 +175,16 @@ async function run() {
       if (hasNextPage) console.log("发现更多页面，继续抓取...");
     }
 
+    // 按 repo 字节序排序后落盘：消除 GitHub search 返回顺序抖动带来的
+    // 全文件 diff / 无意义 commit / tag 膨胀（README 展示排序不受影响）。
+    const allResults = [...byRepo.values()].sort((a, b) =>
+      a.repo < b.repo ? -1 : a.repo > b.repo ? 1 : 0,
+    );
+
     // 保存到文件
     fs.writeFileSync(
-      "plugins_data.json",
-      JSON.stringify(allResults, null, 2),
+      PLUGINS_DATA_PATH,
+      JSON.stringify(allResults, null, 2) + "\n",
       "utf-8",
     );
 
@@ -169,6 +196,7 @@ async function run() {
     console.log(`成功保存插件: ${allResults.length}`);
   } catch (error) {
     console.error("运行出错:", error.message);
+    process.exitCode = 1;
   }
 }
 

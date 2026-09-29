@@ -1,1 +1,360 @@
-[]
+[
+  {
+    "repo": "Enigma-Soul/Breeze-plugin-baozimh-plus",
+    "manifest": {
+      "name": "包子漫画 Plus",
+      "uuid": "791a42eb-cfff-4c12-86c4-cf4ce60bb1fe",
+      "iconUrl": "https://www.baozimh.com/favicon.ico",
+      "creator": {
+        "name": "Enigma_Soul",
+        "describe": "包子漫画增强插件"
+      },
+      "describe": "包子漫画增强：翻页预读",
+      "version": "0.5.2",
+      "home": "https://github.com/Enigma-Soul/Breeze-plugin-baozimh-plus",
+      "updateUrl": "https://api.github.com/repos/Enigma-Soul/Breeze-plugin-baozimh-plus/releases/latest",
+      "breeze-plugin-github-repository": "https://github.com/Enigma-Soul/Breeze-plugin-baozimh-plus"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-JmComic",
+    "manifest": {
+      "name": "禁漫天堂",
+      "uuid": "bf99008d-010b-4f17-ac7c-61a9b57dc3d9",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-JmComic/main/assets/fO.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "禁漫天堂插件",
+      "version": "0.0.11",
+      "home": "https://github.com/deretame/Breeze-plugin-JmComic",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-JmComic/releases/latest",
+      "npmName": "breeze-plugin-jm-comic",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-JmComic"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-ManHuaGui",
+    "manifest": {
+      "name": "漫画柜",
+      "uuid": "1f03ebc7-997d-494a-abb5-a06d60094f44",
+      "iconUrl": "https://tw.manhuagui.com/favicon.ico",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "漫画柜（看漫画）繁体版源站插件",
+      "version": "0.0.2",
+      "home": "https://github.com/deretame/Breeze-plugin-ManHuaGui",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ManHuaGui/releases/latest",
+      "npmName": "breeze-plugin-man-hua-gui",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-ManHuaGui"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-NoyAcg",
+    "manifest": {
+      "name": "NoyAcg",
+      "uuid": "babe7021-2df8-4abc-bba8-00bbfd7a0f75",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-NoyAcg/main/assets/ic_launcher_foreground.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "NoyAcg 插件",
+      "version": "0.0.7",
+      "home": "https://github.com/deretame/Breeze-plugin-NoyAcg",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-NoyAcg/releases/latest",
+      "npmName": "breeze-plugin-noy-acg",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-NoyAcg"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-RuManHua",
+    "manifest": {
+      "name": "如漫画",
+      "uuid": "4c2f8df0-3916-4924-b4cd-4e6b8d340a73",
+      "iconUrl": "https://www.rumanhua2.com/static/images/logo.png",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "如漫画源插件",
+      "version": "0.0.3",
+      "home": "https://github.com/deretame/Breeze-plugin-RuManHua",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-RuManHua/releases/latest",
+      "npmName": "breeze-plugin-ru-man-hua",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-RuManHua"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-WaMan3",
+    "manifest": {
+      "name": "蛙漫3",
+      "uuid": "4471434f-c73a-4dd3-b414-a6a53777d8e0",
+      "iconUrl": "https://manwa.wang/template/wap/32/images/top_icon.png",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "蛙漫插件",
+      "version": "0.0.4",
+      "home": "https://github.com/deretame/Breeze-plugin-WaMan3",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-WaMan3/releases/latest",
+      "npmName": "breeze-plugin-waman3",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-WaMan3"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-baozimh",
+    "manifest": {
+      "name": "包子漫画",
+      "uuid": "1b3c1e94-d9a0-4649-b75f-acd1f18d75e8",
+      "iconUrl": "https://www.baozimh.com/favicon.ico",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "包子漫画抓取插件",
+      "version": "0.0.2",
+      "home": "https://github.com/deretame/Breeze-plugin-baozimh",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
+      "npmName": "breeze-plugin-baozimh",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-baozimh"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-bikaComic",
+    "manifest": {
+      "name": "哔咔漫画",
+      "uuid": "0a0e5858-a467-4702-994a-79e608a4589d",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-bikaComic/main/assets/logo_round.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "哔咔漫画插件",
+      "version": "0.0.10",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
+      "npmName": "breeze-plugin-bika-comic",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-bikaComic"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-copyComic",
+    "manifest": {
+      "name": "拷贝漫画",
+      "uuid": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-copyComic/main/assets/u3.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "拷贝漫画插件",
+      "version": "0.0.10",
+      "home": "https://github.com/deretame/Breeze-plugin-copyComic",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
+      "npmName": "breeze-plugin-copy-comic",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-copyComic"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-ehentai",
+    "manifest": {
+      "name": "e-hentai",
+      "uuid": "dba2a6cf-c495-4416-accf-c29263ab4016",
+      "iconUrl": "",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "e-hentai minimal reader plugin",
+      "version": "0.0.44",
+      "home": "https://github.com/deretame/Breeze-plugin-ehentai",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
+      "npmName": "breeze-plugin-ehentai",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-ehentai"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-jjmhw",
+    "manifest": {
+      "name": "JJ漫画",
+      "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
+      "iconUrl": "https://www.jjmhw.cc/favicon.ico",
+      "creator": {
+        "name": "Breeze",
+        "describe": "jjmhw.cc 漫画源适配"
+      },
+      "describe": "JJ漫画源插件，支持搜索、漫画详情、章节阅读、图片获取和章节下载。",
+      "version": "0.0.1",
+      "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
+      "npmName": "breeze-plugin-jjmhw",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-jjmhw"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-komiic",
+    "manifest": {
+      "name": "Komiic",
+      "uuid": "cafbf766-0231-4f99-ace4-0a26631fff12",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-komiic/main/assets/app_icon.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "Komiic 漫画源插件",
+      "version": "0.0.4",
+      "home": "https://github.com/deretame/Breeze-plugin-komiic",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
+      "npmName": "breeze-plugin-komiic",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-komiic"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-nhentai",
+    "manifest": {
+      "name": "nhentai",
+      "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
+      "creator": {
+        "name": "Breeze plugin",
+        "describe": "nhentai source adapter"
+      },
+      "describe": "nhentai 漫画源插件",
+      "version": "0.0.5",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
+      "home": "https://github.com/deretame/Breeze-plugin-nhentai",
+      "npmName": "breeze-plugin-nhentai",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-nhentai"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-shenShiManHua",
+    "manifest": {
+      "name": "绅士漫画",
+      "uuid": "7166a5fc-b66c-4146-8c40-0f999b592a0a",
+      "iconUrl": "404",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "绅士漫画插件",
+      "version": "0.0.8",
+      "home": "https://github.com/deretame/Breeze-plugin-shenShiManHua",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-shenShiManHua/releases/latest",
+      "npmName": "breeze-plugin-shen-shi-man-hua",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-shenShiManHua"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-webtoon",
+    "manifest": {
+      "name": "WEBTOON",
+      "uuid": "7efa2a7c-da0f-4db1-9167-98045ae37fdb",
+      "iconUrl": "https://webtoons-static.pstatic.net/image/favicon/favicon.ico",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "WEBTOON official App API source (Original + Canvas)",
+      "version": "0.0.4",
+      "home": "https://www.webtoons.com",
+      "updateUrl": "",
+      "npmName": "breeze-plugin-webtoon",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-webtoon"
+    }
+  },
+  {
+    "repo": "deretame/Breeze-plugin-zaiManHuan",
+    "manifest": {
+      "name": "再漫画",
+      "uuid": "65c18db5-eb13-40d0-9ab4-31f473536aa1",
+      "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-zaiManHuan/refs/heads/main/assets/FS.webp",
+      "creator": {
+        "name": "",
+        "describe": ""
+      },
+      "describe": "再漫画插件",
+      "version": "0.0.6",
+      "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
+      "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
+      "npmName": "breeze-plugin-zai-man-hua",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-zaiManHuan"
+    }
+  },
+  {
+    "repo": "wuuduf/Breeze-plugin-toomics",
+    "manifest": {
+      "name": "Toomics",
+      "uuid": "7c3f9a2e-5b1d-4e8a-9c4f-1d2e3f4a5b6c",
+      "iconUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/assets/logo.png",
+      "creator": {
+        "name": "jelly",
+        "describe": "Toomics 漫画插件"
+      },
+      "describe": "Toomics 全球漫画（排行榜/最新/连载中/分类/搜索/阅读）",
+      "version": "0.3.6",
+      "updateUrl": "https://raw.githubusercontent.com/wuuduf/Breeze-plugin-toomics/main/latest.json",
+      "home": "https://github.com/wuuduf/Breeze-plugin-toomics",
+      "breeze-plugin-github-repository": "https://github.com/wuuduf/Breeze-plugin-toomics"
+    }
+  },
+  {
+    "repo": "zjfb/Breeze-plugin-hanman18",
+    "manifest": {
+      "name": "禁漫天堂（hanman18）",
+      "uuid": "8f3a5c27-1d64-4e93-b7a0-52c8f6e910d4",
+      "iconUrl": "https://hanman18.com/hanman18.png?v=1.1",
+      "creator": {
+        "name": "hanman18-source",
+        "describe": "基于 hanman18.com 页面解析的第三方图源插件"
+      },
+      "describe": "禁漫天堂 图源：书库、体裁分类、最近更新、搜索、在线阅读与下载。",
+      "version": "1.0.0",
+      "home": "https://hanman18.com/",
+      "npmName": "breeze-plugin-hanman18",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-hanman18/releases/latest",
+      "breeze-plugin-github-repository": "https://github.com/zjfb/Breeze-plugin-hanman18"
+    }
+  },
+  {
+    "repo": "zjfb/Breeze-plugin-nnhanman",
+    "manifest": {
+      "name": "鸟鸟韩漫（nnhanman）",
+      "uuid": "4d7a1e83-2c95-4b60-a8f2-6e1d9b0c7538",
+      "iconUrl": "https://nnhanman.com/images/logo.png",
+      "creator": {
+        "name": "nnhanman-source",
+        "describe": "基于 nnhanman 系列域名页面解析的第三方图源插件"
+      },
+      "describe": "鸟鸟韩漫 图源：排行榜、更新栏目、分类书库（21 个分类可筛）、搜索、在线阅读与下载。内置 6 个镜像域名，主站失效自动切换。",
+      "version": "1.2.1",
+      "home": "https://nnhanman.com/",
+      "npmName": "breeze-plugin-nnhanman",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-nnhanman/releases/latest",
+      "breeze-plugin-github-repository": "https://github.com/zjfb/Breeze-plugin-nnhanman"
+    }
+  },
+  {
+    "repo": "zjfb/Breeze-plugin-seyoumanhua",
+    "manifest": {
+      "name": "色友漫画（seyoumanhua）",
+      "uuid": "9c4e2b71-6f38-4a52-8d19-5e7b0c3a2f64",
+      "iconUrl": "https://seyoumanhua.com/template/pc/skin01/images/pic_nav_logo.png",
+      "creator": {
+        "name": "seyoumanhua-source",
+        "describe": "基于 seyoumanhua.com 页面解析的第三方图源插件"
+      },
+      "describe": "色友漫画 图源：排行榜、分类书库（25 个分类可筛）、搜索、在线阅读与下载。纯 HTML 解析，无需登录。",
+      "version": "1.2.1",
+      "home": "https://seyoumanhua.com/",
+      "npmName": "breeze-plugin-seyoumanhua",
+      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-seyoumanhua/releases/latest",
+      "breeze-plugin-github-repository": "https://github.com/zjfb/Breeze-plugin-seyoumanhua"
+    }
+  }
+]

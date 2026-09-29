@@ -3,10 +3,10 @@ const fs = require("fs");
 const GITHUB_TOKEN = process.env.GIT_TOKEN;
 const PLUGINS_DATA_PATH = "plugins_data.json";
 const README_PATH = "README.md";
-// 写入 manifest 内的权威来源字段：值为仓库 fullName（owner/name）。
-// 命名加前缀避免与插件自身字段冲突；抓取时强制覆盖 manifest 自带值，
-// 客户端以此为准即可区分 fork / 改名导致的 updateUrl/home 不一致。
-const REPO_FIELD = "breeze-plugin-github-repository";
+// 写入 manifest 内的权威来源字段：值为可直接点击跳转的完整 URL
+// （https://github.com/<owner>/<name>）。命名加前缀避免与插件自身字段冲突；
+// 抓取时强制覆盖 manifest 自带值，客户端以此为准即可区分 fork / 改名导致的
+// updateUrl/home 不一致，无需再拼接。
 const EXAMPLE_REPO = "deretame/Breeze-plugin-example";
 
 async function fetchPage(cursor = null) {
@@ -54,10 +54,10 @@ async function fetchPage(cursor = null) {
 }
 
 // 剥离 function（保留字/不可序列化风险）与旧的 REPO_FIELD，后者由调用方按当前
-// 仓库 fullName 重新写入，保证来源权威且键序稳定（该字段恒为最后一个键）。
+// 仓库 fullName 重新写成完整 URL，保证来源权威且键序稳定（该字段恒为最后一个键）。
 function normalizeManifest(manifest, repo) {
   const { function: _ignoredFunction, [REPO_FIELD]: _ignoredRepo, ...rest } = manifest;
-  return { ...rest, [REPO_FIELD]: repo };
+  return { ...rest, [REPO_FIELD]: `https://github.com/${repo}` };
 }
 
 function generatePluginListMarkdown(results) {

@@ -7,6 +7,7 @@ const README_PATH = "README.md";
 // （https://github.com/<owner>/<name>）。命名加前缀避免与插件自身字段冲突；
 // 抓取时强制覆盖 manifest 自带值，客户端以此为准即可区分 fork / 改名导致的
 // updateUrl/home 不一致，无需再拼接。
+const REPO_FIELD = "breeze-plugin-github-repository";
 const EXAMPLE_REPO = "deretame/Breeze-plugin-example";
 
 async function fetchPage(cursor = null) {

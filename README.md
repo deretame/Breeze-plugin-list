@@ -21,6 +21,7 @@
 | [哔咔漫画](https://github.com/deretame/Breeze-plugin-bikaComic) | [deretame/Breeze-plugin-bikaComic](https://github.com/deretame/Breeze-plugin-bikaComic) |
 | [禁漫天堂](https://github.com/deretame/Breeze-plugin-JmComic) | [deretame/Breeze-plugin-JmComic](https://github.com/deretame/Breeze-plugin-JmComic) |
 | [禁漫天堂（hanman18）](https://hanman18.com/) | [zjfb/Breeze-plugin-hanman18](https://github.com/zjfb/Breeze-plugin-hanman18) |
+| [禁漫天堂(mumushu0501-boop)](https://github.com/Mumushu0501-boop/Breeze-plugin-JmComic-change) | [mumushu0501-boop/Breeze-plugin-JmComic-change](https://github.com/mumushu0501-boop/Breeze-plugin-JmComic-change) |
 | [拷贝漫画](https://github.com/deretame/Breeze-plugin-copyComic) | [deretame/Breeze-plugin-copyComic](https://github.com/deretame/Breeze-plugin-copyComic) |
 | [漫画柜](https://github.com/deretame/Breeze-plugin-ManHuaGui) | [deretame/Breeze-plugin-ManHuaGui](https://github.com/deretame/Breeze-plugin-ManHuaGui) |
 | [鸟鸟韩漫（nnhanman）](https://nnhanman.com/) | [zjfb/Breeze-plugin-nnhanman](https://github.com/zjfb/Breeze-plugin-nnhanman) |

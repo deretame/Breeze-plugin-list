@@ -287,6 +287,26 @@
     }
   },
   {
+    "repo": "mumushu0501-boop/Breeze-plugin-JmComic-change",
+    "manifest": {
+      "name": "禁漫天堂(mumushu0501-boop)",
+      "uuid": "6886291b-f524-441c-844b-c2efae9899a9",
+      "iconUrl": "https://raw.githubusercontent.com/Mumushu0501-boop/Breeze-plugin-JmComic-change/main/assets/fO.webp",
+      "creator": {
+        "name": "Mumushu0501-boop",
+        "describe": "https://github.com/Mumushu0501-boop"
+      },
+      "describe": "禁漫天堂插件（含评论(实验）、线路测速、图片多线路回退）",
+      "version": "0.2.0",
+      "pageImageDecode": {
+        "type": "jmSegmentation"
+      },
+      "home": "https://github.com/Mumushu0501-boop/Breeze-plugin-JmComic-change",
+      "updateUrl": "https://api.github.com/repos/Mumushu0501-boop/Breeze-plugin-JmComic-change/releases/latest",
+      "breeze-plugin-github-repository": "https://github.com/mumushu0501-boop/Breeze-plugin-JmComic-change"
+    }
+  },
+  {
     "repo": "wuuduf/Breeze-plugin-toomics",
     "manifest": {
       "name": "Toomics",

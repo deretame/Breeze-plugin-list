@@ -58,9 +58,16 @@
 # 安装依赖
 pnpm install
 
-# 生成插件列表（需要设置 GIT_TOKEN）
-GIT_TOKEN=<your_github_token> node get-list.js
+# 本地运行时把 token 放在 token.txt（单行、无需 export，已被 git 忽略）；
+# CI 等没有该文件的环境仍用 GIT_TOKEN 环境变量
+echo -n '<your_github_token>' > token.txt
+node get-list.js
 ```
+
+包可用性规则：有 `npmName` 先 `pnpm view --json` 查 npm，命中即收录；
+否则抓 `updateUrl`（一般是 GitHub releases 接口，但只要返回含
+`assets[].browser_download_url` 的 JSON 即可），且至少一个附件 HEAD/Range-GET
+可下载才收录。验证是插件级限流并发（默认 5）。
 
 ## 贡献插件
 

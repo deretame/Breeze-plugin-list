@@ -322,59 +322,5 @@
       "home": "https://github.com/wuuduf/Breeze-plugin-toomics",
       "breeze-plugin-github-repository": "https://github.com/wuuduf/Breeze-plugin-toomics"
     }
-  },
-  {
-    "repo": "zjfb/Breeze-plugin-hanman18",
-    "manifest": {
-      "name": "禁漫天堂（hanman18）",
-      "uuid": "8f3a5c27-1d64-4e93-b7a0-52c8f6e910d4",
-      "iconUrl": "https://hanman18.com/hanman18.png?v=1.1",
-      "creator": {
-        "name": "hanman18-source",
-        "describe": "基于 hanman18.com 页面解析的第三方图源插件"
-      },
-      "describe": "禁漫天堂 图源：书库、体裁分类、最近更新、搜索、在线阅读与下载。",
-      "version": "1.0.0",
-      "home": "https://hanman18.com/",
-      "npmName": "breeze-plugin-hanman18",
-      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-hanman18/releases/latest",
-      "breeze-plugin-github-repository": "https://github.com/zjfb/Breeze-plugin-hanman18"
-    }
-  },
-  {
-    "repo": "zjfb/Breeze-plugin-nnhanman",
-    "manifest": {
-      "name": "鸟鸟韩漫（nnhanman）",
-      "uuid": "4d7a1e83-2c95-4b60-a8f2-6e1d9b0c7538",
-      "iconUrl": "https://nnhanman.com/images/logo.png",
-      "creator": {
-        "name": "nnhanman-source",
-        "describe": "基于 nnhanman 系列域名页面解析的第三方图源插件"
-      },
-      "describe": "鸟鸟韩漫 图源：排行榜、更新栏目、分类书库（21 个分类可筛）、搜索、在线阅读与下载。内置 6 个镜像域名，主站失效自动切换。",
-      "version": "1.2.1",
-      "home": "https://nnhanman.com/",
-      "npmName": "breeze-plugin-nnhanman",
-      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-nnhanman/releases/latest",
-      "breeze-plugin-github-repository": "https://github.com/zjfb/Breeze-plugin-nnhanman"
-    }
-  },
-  {
-    "repo": "zjfb/Breeze-plugin-seyoumanhua",
-    "manifest": {
-      "name": "色友漫画（seyoumanhua）",
-      "uuid": "9c4e2b71-6f38-4a52-8d19-5e7b0c3a2f64",
-      "iconUrl": "https://seyoumanhua.com/template/pc/skin01/images/pic_nav_logo.png",
-      "creator": {
-        "name": "seyoumanhua-source",
-        "describe": "基于 seyoumanhua.com 页面解析的第三方图源插件"
-      },
-      "describe": "色友漫画 图源：排行榜、分类书库（25 个分类可筛）、搜索、在线阅读与下载。纯 HTML 解析，无需登录。",
-      "version": "1.2.1",
-      "home": "https://seyoumanhua.com/",
-      "npmName": "breeze-plugin-seyoumanhua",
-      "updateUrl": "https://api.github.com/repos/teng662858/Breeze-plugin-seyoumanhua/releases/latest",
-      "breeze-plugin-github-repository": "https://github.com/zjfb/Breeze-plugin-seyoumanhua"
-    }
   }
 ]

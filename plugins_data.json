@@ -143,6 +143,19 @@
     }
   },
   {
+    "repo": "deretame/Breeze-plugin-hitomi",
+    "manifest": {
+      "name": "hitomi",
+      "uuid": "c8f3a1e2-7b4d-4e9a-8f2c-1d5a7b9e3f6a8",
+      "iconUrl": "https://hitomi.la/favicon.ico",
+      "describe": "hitomi.la 漫画源插件",
+      "version": "0.1.0",
+      "home": "https://hitomi.la",
+      "npmName": "breeze-plugin-hitomi",
+      "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-hitomi"
+    }
+  },
+  {
     "repo": "deretame/Breeze-plugin-jjmhw",
     "manifest": {
       "name": "JJ漫画",

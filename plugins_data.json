@@ -250,10 +250,7 @@
         "describe": "https://github.com/Mumushu0501-boop"
       },
       "describe": "禁漫天堂插件（含评论(实验）、线路测速、图片多线路回退）",
-      "version": "0.2.0",
-      "pageImageDecode": {
-        "type": "jmSegmentation"
-      },
+      "version": "0.2.1",
       "home": "https://github.com/Mumushu0501-boop/Breeze-plugin-JmComic-change",
       "updateUrl": "https://api.github.com/repos/Mumushu0501-boop/Breeze-plugin-JmComic-change/releases/latest",
       "breeze-plugin-github-repository": "https://github.com/mumushu0501-boop/Breeze-plugin-JmComic-change"

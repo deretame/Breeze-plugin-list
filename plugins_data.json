@@ -232,7 +232,7 @@
       "uuid": "65c18db5-eb13-40d0-9ab4-31f473536aa1",
       "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-zaiManHuan/refs/heads/main/assets/FS.webp",
       "describe": "再漫画插件",
-      "version": "0.0.10",
+      "version": "0.0.11",
       "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
       "npmName": "breeze-plugin-zai-man-hua",

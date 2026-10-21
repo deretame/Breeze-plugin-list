@@ -23,10 +23,12 @@
       "uuid": "bf99008d-010b-4f17-ac7c-61a9b57dc3d9",
       "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-JmComic/main/assets/fO.webp",
       "describe": "禁漫天堂插件",
-      "version": "0.0.15",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-JmComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-JmComic/releases/latest",
       "npmName": "breeze-plugin-jm-comic",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-JmComic"
     }
   },
@@ -37,10 +39,11 @@
       "uuid": "1f03ebc7-997d-494a-abb5-a06d60094f44",
       "iconUrl": "https://tw.manhuagui.com/favicon.ico",
       "describe": "漫画柜（看漫画）繁体版源站插件",
-      "version": "0.0.3",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-ManHuaGui",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ManHuaGui/releases/latest",
       "npmName": "breeze-plugin-man-hua-gui",
+      "haveHome": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-ManHuaGui"
     }
   },
@@ -51,10 +54,12 @@
       "uuid": "babe7021-2df8-4abc-bba8-00bbfd7a0f75",
       "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-NoyAcg/main/assets/ic_launcher_foreground.webp",
       "describe": "NoyAcg 插件",
-      "version": "0.0.8",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-NoyAcg",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-NoyAcg/releases/latest",
       "npmName": "breeze-plugin-noy-acg",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-NoyAcg"
     }
   },
@@ -65,10 +70,11 @@
       "uuid": "4c2f8df0-3916-4924-b4cd-4e6b8d340a73",
       "iconUrl": "https://www.rumanhua2.com/static/images/logo.png",
       "describe": "如漫画源插件",
-      "version": "0.0.4",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-RuManHua",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-RuManHua/releases/latest",
       "npmName": "breeze-plugin-ru-man-hua",
+      "haveHome": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-RuManHua"
     }
   },
@@ -79,10 +85,12 @@
       "uuid": "4471434f-c73a-4dd3-b414-a6a53777d8e0",
       "iconUrl": "https://manwa.wang/template/wap/32/images/top_icon.png",
       "describe": "蛙漫插件",
-      "version": "0.0.7",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-WaMan3",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-WaMan3/releases/latest",
       "npmName": "breeze-plugin-waman3",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-WaMan3"
     }
   },
@@ -93,10 +101,11 @@
       "uuid": "1b3c1e94-d9a0-4649-b75f-acd1f18d75e8",
       "iconUrl": "https://baozimh.org/favicon.ico",
       "describe": "包子漫画插件",
-      "version": "0.0.4",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-baozimh",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-baozimh/releases/latest",
       "npmName": "breeze-plugin-baozimh",
+      "haveHome": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-baozimh"
     }
   },
@@ -107,10 +116,12 @@
       "uuid": "0a0e5858-a467-4702-994a-79e608a4589d",
       "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-bikaComic/main/assets/logo_round.webp",
       "describe": "哔咔漫画插件",
-      "version": "0.0.11",
+      "version": "0.1.1",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-bikaComic/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-bikaComic",
       "npmName": "breeze-plugin-bika-comic",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-bikaComic"
     }
   },
@@ -121,10 +132,12 @@
       "uuid": "b28da416-f2d4-4208-a85e-8b4c7c648e48",
       "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-copyComic/main/assets/u3.webp",
       "describe": "拷贝漫画插件",
-      "version": "0.0.14",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-copyComic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-copyComic/releases/latest",
       "npmName": "breeze-plugin-copy-comic",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-copyComic"
     }
   },
@@ -135,10 +148,12 @@
       "uuid": "dba2a6cf-c495-4416-accf-c29263ab4016",
       "iconUrl": "",
       "describe": "e-hentai minimal reader plugin",
-      "version": "0.0.49",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-ehentai",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-ehentai/releases/latest",
       "npmName": "breeze-plugin-ehentai",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-ehentai"
     }
   },
@@ -149,9 +164,10 @@
       "uuid": "c8f3a1e2-7b4d-4e9a-8f2c-1d5a7b9e3f6a8",
       "iconUrl": "https://hitomi.la/favicon.ico",
       "describe": "hitomi.la 漫画源插件",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "home": "https://hitomi.la",
       "npmName": "breeze-plugin-hitomi",
+      "haveHome": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-hitomi"
     }
   },
@@ -162,10 +178,12 @@
       "uuid": "d6f2f13a-b4d0-4f6c-9c6d-8a9f1a2b7c31",
       "iconUrl": "https://d.jjmhw.cc/favicon.ico",
       "describe": "JJ漫画源插件",
-      "version": "0.3.2",
+      "version": "0.4.0",
       "home": "https://github.com/deretame/Breeze-plugin-jjmhw",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-jjmhw/releases/latest",
       "npmName": "breeze-plugin-jjmhw",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-jjmhw"
     }
   },
@@ -176,10 +194,12 @@
       "uuid": "cafbf766-0231-4f99-ace4-0a26631fff12",
       "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-komiic/main/assets/app_icon.webp",
       "describe": "Komiic 漫画源插件",
-      "version": "0.0.5",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-komiic",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-komiic/releases/latest",
       "npmName": "breeze-plugin-komiic",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-komiic"
     }
   },
@@ -190,10 +210,12 @@
       "uuid": "416598d0-84d0-4de9-8ec5-e74816e768f2",
       "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-nhentai/main/assets/Nhentai_idAD-FU-t__1.svg",
       "describe": "nhentai 漫画源插件",
-      "version": "0.0.8",
+      "version": "0.1.0",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-nhentai/releases/latest",
       "home": "https://github.com/deretame/Breeze-plugin-nhentai",
       "npmName": "breeze-plugin-nhentai",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-nhentai"
     }
   },
@@ -204,10 +226,12 @@
       "uuid": "7166a5fc-b66c-4146-8c40-0f999b592a0a",
       "iconUrl": "404",
       "describe": "绅士漫画插件",
-      "version": "0.0.11",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-shenShiManHua",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-shenShiManHua/releases/latest",
       "npmName": "breeze-plugin-shen-shi-man-hua",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-shenShiManHua"
     }
   },
@@ -218,10 +242,11 @@
       "uuid": "7efa2a7c-da0f-4db1-9167-98045ae37fdb",
       "iconUrl": "https://webtoons-static.pstatic.net/image/favicon/favicon.ico",
       "describe": "WEBTOON official App API source (Original + Canvas)",
-      "version": "0.0.5",
+      "version": "0.1.0",
       "home": "https://www.webtoons.com",
       "updateUrl": "",
       "npmName": "breeze-plugin-webtoon",
+      "haveHome": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-webtoon"
     }
   },
@@ -232,10 +257,12 @@
       "uuid": "65c18db5-eb13-40d0-9ab4-31f473536aa1",
       "iconUrl": "https://raw.githubusercontent.com/deretame/Breeze-plugin-zaiManHuan/refs/heads/main/assets/FS.webp",
       "describe": "再漫画插件",
-      "version": "0.0.11",
+      "version": "0.1.0",
       "home": "https://github.com/deretame/Breeze-plugin-zaiManHuan",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-zaiManHuan/releases/latest",
       "npmName": "breeze-plugin-zai-man-hua",
+      "haveHome": true,
+      "haveCloudFavorite": true,
       "breeze-plugin-github-repository": "https://github.com/deretame/Breeze-plugin-zaiManHuan"
     }
   },

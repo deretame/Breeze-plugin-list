@@ -22,6 +22,7 @@
 | [禁漫天堂](https://github.com/deretame/Breeze-plugin-JmComic) | [deretame/Breeze-plugin-JmComic](https://github.com/deretame/Breeze-plugin-JmComic) |
 | [禁漫天堂(mumushu0501-boop)](https://github.com/Mumushu0501-boop/Breeze-plugin-JmComic-change) | [mumushu0501-boop/Breeze-plugin-JmComic-change](https://github.com/mumushu0501-boop/Breeze-plugin-JmComic-change) |
 | [拷贝漫画](https://github.com/deretame/Breeze-plugin-copyComic) | [deretame/Breeze-plugin-copyComic](https://github.com/deretame/Breeze-plugin-copyComic) |
+| [拷贝漫画 Copy4000](https://github.com/k623615746/Breeze-plugin-copy4000) | [k623615746/Breeze-plugin-copy4000](https://github.com/k623615746/Breeze-plugin-copy4000) |
 | [漫画柜](https://github.com/deretame/Breeze-plugin-ManHuaGui) | [deretame/Breeze-plugin-ManHuaGui](https://github.com/deretame/Breeze-plugin-ManHuaGui) |
 | [如漫画](https://github.com/deretame/Breeze-plugin-RuManHua) | [deretame/Breeze-plugin-RuManHua](https://github.com/deretame/Breeze-plugin-RuManHua) |
 | [绅士漫画](https://github.com/deretame/Breeze-plugin-shenShiManHua) | [deretame/Breeze-plugin-shenShiManHua](https://github.com/deretame/Breeze-plugin-shenShiManHua) |

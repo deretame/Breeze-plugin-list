@@ -31,10 +31,14 @@
 | [hitomi](https://hitomi.la) | [deretame/Breeze-plugin-hitomi](https://github.com/deretame/Breeze-plugin-hitomi) |
 | [JJ漫画](https://github.com/deretame/Breeze-plugin-jjmhw) | [deretame/Breeze-plugin-jjmhw](https://github.com/deretame/Breeze-plugin-jjmhw) |
 | [Komiic](https://github.com/deretame/Breeze-plugin-komiic) | [deretame/Breeze-plugin-komiic](https://github.com/deretame/Breeze-plugin-komiic) |
+| [MangaDex](https://github.com/k623615746/Breeze-plugin-mangadex) | [k623615746/Breeze-plugin-mangadex](https://github.com/k623615746/Breeze-plugin-mangadex) |
 | [nhentai](https://github.com/deretame/Breeze-plugin-nhentai) | [deretame/Breeze-plugin-nhentai](https://github.com/deretame/Breeze-plugin-nhentai) |
 | [NoyAcg](https://github.com/deretame/Breeze-plugin-NoyAcg) | [deretame/Breeze-plugin-NoyAcg](https://github.com/deretame/Breeze-plugin-NoyAcg) |
 | [Toomics](https://github.com/wuuduf/Breeze-plugin-toomics) | [wuuduf/Breeze-plugin-toomics](https://github.com/wuuduf/Breeze-plugin-toomics) |
 | [WEBTOON](https://www.webtoons.com) | [deretame/Breeze-plugin-webtoon](https://github.com/deretame/Breeze-plugin-webtoon) |
+| [WeebCentral](https://github.com/k623615746/Breeze-plugin-weebcentral) | [k623615746/Breeze-plugin-weebcentral](https://github.com/k623615746/Breeze-plugin-weebcentral) |
+| [zero搬运网](https://github.com/k623615746/Breeze-plugin-zerobyw) | [k623615746/Breeze-plugin-zerobyw](https://github.com/k623615746/Breeze-plugin-zerobyw) |
+| [코사이트](https://github.com/k623615746/Breeze-plugin-korsite) | [k623615746/Breeze-plugin-korsite](https://github.com/k623615746/Breeze-plugin-korsite) |
 
 <!-- PLUGIN_LIST_END -->
 

@@ -29,6 +29,7 @@
 | [蛙漫3](https://github.com/deretame/Breeze-plugin-WaMan3) | [deretame/Breeze-plugin-WaMan3](https://github.com/deretame/Breeze-plugin-WaMan3) |
 | [再漫画](https://github.com/deretame/Breeze-plugin-zaiManHuan) | [deretame/Breeze-plugin-zaiManHuan](https://github.com/deretame/Breeze-plugin-zaiManHuan) |
 | [e-hentai](https://github.com/deretame/Breeze-plugin-ehentai) | [deretame/Breeze-plugin-ehentai](https://github.com/deretame/Breeze-plugin-ehentai) |
+| [Hanime1](https://hanime1.me/) | [kl5212840-lang/Breeze-plugin-Hanime1-native](https://github.com/kl5212840-lang/Breeze-plugin-Hanime1-native) |
 | [hitomi](https://hitomi.la) | [deretame/Breeze-plugin-hitomi](https://github.com/deretame/Breeze-plugin-hitomi) |
 | [JJ漫画](https://github.com/deretame/Breeze-plugin-jjmhw) | [deretame/Breeze-plugin-jjmhw](https://github.com/deretame/Breeze-plugin-jjmhw) |
 | [Komiic](https://github.com/deretame/Breeze-plugin-komiic) | [deretame/Breeze-plugin-komiic](https://github.com/deretame/Breeze-plugin-komiic) |

@@ -31,6 +31,7 @@
 | [e-hentai](https://github.com/deretame/Breeze-plugin-ehentai) | [deretame/Breeze-plugin-ehentai](https://github.com/deretame/Breeze-plugin-ehentai) |
 | [Hanime1](https://hanime1.me/) | [kl5212840-lang/Breeze-plugin-Hanime1-native](https://github.com/kl5212840-lang/Breeze-plugin-Hanime1-native) |
 | [hitomi](https://hitomi.la) | [deretame/Breeze-plugin-hitomi](https://github.com/deretame/Breeze-plugin-hitomi) |
+| [iKun 资源](https://github.com/kl5212840-lang/Breeze-plugin-iKun-native) | [kl5212840-lang/Breeze-plugin-iKun-native](https://github.com/kl5212840-lang/Breeze-plugin-iKun-native) |
 | [JJ漫画](https://github.com/deretame/Breeze-plugin-jjmhw) | [deretame/Breeze-plugin-jjmhw](https://github.com/deretame/Breeze-plugin-jjmhw) |
 | [Komiic](https://github.com/deretame/Breeze-plugin-komiic) | [deretame/Breeze-plugin-komiic](https://github.com/deretame/Breeze-plugin-komiic) |
 | [MangaDex](https://github.com/k623615746/Breeze-plugin-mangadex) | [k623615746/Breeze-plugin-mangadex](https://github.com/k623615746/Breeze-plugin-mangadex) |

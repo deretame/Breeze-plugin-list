@@ -226,7 +226,7 @@
       "uuid": "7166a5fc-b66c-4146-8c40-0f999b592a0a",
       "iconUrl": "404",
       "describe": "绅士漫画插件",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "home": "https://github.com/deretame/Breeze-plugin-shenShiManHua",
       "updateUrl": "https://api.github.com/repos/deretame/Breeze-plugin-shenShiManHua/releases/latest",
       "npmName": "breeze-plugin-shen-shi-man-hua",
